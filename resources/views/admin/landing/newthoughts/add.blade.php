@@ -113,6 +113,13 @@
                                     <label>Summary</label>
                                     <textarea name="summary" id="summary" class="form-control summernote"></textarea>
                                 </div>
+                                <div class="form-group">
+                                    <label>Now More Button Status</label>
+                                    <select class="form-control" id="knowmore_button" name="knowmore_button">
+                                        <option value="1" >Active </option>
+                                        <option value="0">Deactivate</option>
+                                    </select>
+                                </div>
 
 
                                 <table class="table table-bordered">
