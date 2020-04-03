@@ -3,12 +3,14 @@
 @section('title', 'Adora Group')
 @push('styles')
     <link rel="stylesheet" href="{{url('assets/css/slick.css')}}">
-
+    <style>
+        body .header{background: transparent;}
+    </style>
 @endpush
 <div class="wrapper" style="max-width: 1920px;margin: auto;">
     <section class="home_slider">
         <!-- slick -->
-        <div class="container1">
+        <div class="container">
             <div class="slick-slider">
                 @if($landing)
                     @foreach($landing as $item)
@@ -165,6 +167,8 @@
                 slidesToScroll:1,
                 pauseOnHover:false,
                 dots: true,
+                cssEase:'linear',
+                fade:true,
                 nextArrow:true,
                 prevArrow:true,
             });

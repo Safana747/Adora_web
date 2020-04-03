@@ -23,7 +23,7 @@
     @stack('styles')
     <title>@yield('title')</title>
 </head>
-<body class="home">
+<body>
 
 <header class="header">
     <nav class="navbar navbar-expand-lg navbar-light cn-stick-nav">

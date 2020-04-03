@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/adora.iml" filepath="$PROJECT_DIR$/.idea/adora.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/adora.in.iml" filepath="$PROJECT_DIR$/.idea/adora.in.iml" />
     </modules>
   </component>
 </project>
