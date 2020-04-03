@@ -57,9 +57,10 @@ class TradingController extends Controller
             $image = $request->file('file');
             $image_name=uniqid() . time() . '.' . $image->getClientOriginalExtension();
             $destinationPath = public_path('/assets/images/trading/');
-            Image::make($image)->fit(500, 400)->save($destinationPath.$image_name, 80);
+            Image::make($image)->save($destinationPath.$image_name, 80);
 
             $data=array(
+                "seo_url"=>slugify($request->title),
                 "title" =>$request->title,
                 "description" =>$request->description,
                 "summary" =>$request->summary,
@@ -102,7 +103,7 @@ class TradingController extends Controller
                 $image = $request->file('file');
                 $image_name=uniqid() . time() . '.' . $image->getClientOriginalExtension();
                 $destinationPath = public_path('/assets/images/trading/');
-                Image::make($image)->fit(500, 400)->save($destinationPath.$image_name, 80);
+                Image::make($image)->save($destinationPath.$image_name, 80);
 
                 $image_path=public_path('assets/images/trading/') . $item->image;
                 if (file_exists($image_path))
