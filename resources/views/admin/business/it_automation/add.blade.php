@@ -108,10 +108,10 @@
                                 </div>
 
                                 <div class="form-group">
-                                    <label>Now More Button Status</label>
+                                    <label>Know More Button Status</label>
                                     <select class="form-control" id="knowmore_button" name="knowmore_button">
                                         <option value="1" >Active </option>
-                                        <option value="0">Deactivate</option>
+                                        <option value="0" selected>Deactivate</option>
                                     </select>
                                 </div>
 

@@ -88,18 +88,7 @@
         </div>
     </nav>
 
-
-
-
-
-
 @yield('content')
-
-
-
-
-
-
 
     <!-- SIDE MENU START -->
     <div id="leftsidebar" class="sidebar">
@@ -153,6 +142,13 @@
                             <li {{isset($sub_menu)?($sub_menu==45?'class=active':''):''}}><a href="{{route('admin.operations')}}">Operations</a></li>
 
                         </ul>
+                    </li>
+
+                    <li {{isset($menu)?($menu==5?'class=active':''):''}}>
+                        <a href="{{route('admin.jobvacancies')}}"><i class="fa fa-list"></i><span>Job Vacancies</span></a>
+                    </li>
+                    <li {{isset($menu)?($menu==6?'class=active':''):''}}>
+                        <a href="{{route('admin.job_applications')}}"><i class="fa fa-list"></i><span>Job Applications</span></a>
                     </li>
 
                     <li class="heading">Settings</li>

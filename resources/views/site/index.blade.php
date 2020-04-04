@@ -36,10 +36,10 @@
         </div>
         <!-- slick JS -->
     </section>
+    @if(count($newthoughts)>0)
     <section class="new_throught">
         <h1><span>NEW </span>THOUGHTS</h1>
         <div class="slick-slider_1">
-            @if($newthoughts)
                 @foreach($newthoughts as $item)
             <div>
                 <div class="d-flex justify-content-center align-items-center">
@@ -56,14 +56,14 @@
                 </div>
             </div>
                 @endforeach
-            @endif
         </div>
     </section>
+    @endif
+    @if(count($ongoingprojects)>0)
     <section class="ongoing_project">
         <div class="container-fluid">
             <h2>ONGOING PROJECTS</h2>
             <div class="slick-slider_2">
-                @if($ongoingprojects)
                     @foreach($ongoingprojects as $item)
                 <div>
                     <div class="media">
@@ -83,10 +83,11 @@
                 </div>
 
                     @endforeach
-                @endif
             </div>
         </div>
     </section>
+    @endif
+    @if(count($casestudies)>0)
     <section class="case_study">
         <div class="container-fluid">
             <div class="row">
@@ -98,7 +99,6 @@
                 </div>
                 <div class="col-md-9 case_slider">
                     <div class="slick-slider_3">
-                        @if($casestudies)
                             @foreach($casestudies as $item)
                         <div class="slick_item">
                             <div class="card">
@@ -112,13 +112,13 @@
                             </div>
                         </div>
                             @endforeach
-                        @endif
 
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    @endif
     <section class="client_logos">
         <div class="container-fluid">
             <div class="slick-slider_4">

@@ -27,7 +27,7 @@ Route::get('/become_partner', 'WebController@become_partner')->name('web_become_
 Route::get('/job_vacancies', 'WebController@job_vacancies')->name('web_job_vacancies');
 Route::post('/job_vacancies', 'WebController@job_vacancies_submit')->name('web_job_vacancies_submit');
 Route::post('/become_partner', 'WebController@become_partner_submit')->name('web_become_partner_submit');
-
+//knowmore
 Route::get('/home/{seo_url}', 'WebController@home_single')->name('web_single');
 Route::get('/newthoughts/{seo_url}', 'WebController@newthought_single')->name('web_newthought_single');
 Route::get('/ongoingprojects/{seo_url}', 'WebController@ongoingproject_single')->name('web_ongoingproject_single');
@@ -181,6 +181,17 @@ Route::group(['prefix'=>'admin','as'=>'admin.'], function(){
     Route::post('/business/operations/edit/{id}', 'admin\OperationsController@update')->name('operations_update');
     Route::delete('/business/operations/delete/{id}', 'admin\OperationsController@delete')->name('operations_delete');
 
+    //Job Vacancies
+    Route::get('/jobvacancies', 'admin\JobVacanciesController@index')->name('jobvacancies');
+    Route::get('/jobvacancies/create', 'admin\JobVacanciesController@add')->name('jobvacancies_add');
+    Route::post('/jobvacancies/create', 'admin\JobVacanciesController@save')->name('jobvacancies_save');
+    Route::get('/jobvacancies/edit/{id}', 'admin\JobVacanciesController@edit')->name('jobvacancies_edit');
+    Route::post('/jobvacancies/edit/{id}', 'admin\JobVacanciesController@update')->name('jobvacancies_update');
+    Route::delete('/jobvacancies/delete/{id}', 'admin\JobVacanciesController@delete')->name('jobvacancies_delete');
+
+    //Job Applications
+    Route::get('/job_applications', 'admin\JobApplications@index')->name('job_applications');
+    Route::delete('/job_applications/delete/{id}', 'admin\JobApplications@delete')->name('job_applications_delete');
 
     //Settings
     Route::get('/settings', 'admin\SettingsController@edit')->name('settings');
