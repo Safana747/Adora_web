@@ -121,11 +121,11 @@
             </div>
         </div>
     </section>
+    @if(count($social_responsabilities)>0)
     <section class="social_resp" id="social_responsibilities">
         <div class="container">
             <h4>SOCIAL RESPONCIBILITIES</h4>
             <div class="slick-slider_2">
-                @if($social_responsabilities)
                     @foreach($social_responsabilities as $item)
                     <div>
                         <div class="media">
@@ -146,16 +146,17 @@
                         </div>
                     </div>
                     @endforeach
-                @endif
             </div>
         </div>
     </section>
+    @endif
+    @if(count($awards)>0)
     <section class="awd_achve" id="awards_achivements">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 awd_achve_slider">
                     <div class="slick-slider_3">
-                        @if($awards)
+
                             @foreach($awards as $item)
                             <div class="slick_item">
                             <div class="card">
@@ -172,7 +173,7 @@
                             </div>
                         </div>
                             @endforeach
-                        @endif
+
                     </div>
                 </div>
                 <div class="col-md-4 awd_achve_heading d-flex justify-content-center align-items-center">
@@ -183,6 +184,9 @@
             </div>
         </div>
     </section>
+    @endif
+
+
 
 </div>
 @push('scripts')

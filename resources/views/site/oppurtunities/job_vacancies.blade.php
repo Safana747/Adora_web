@@ -112,6 +112,19 @@
                             <div class="form-group">
                                 <input onkeypress="return isNumberKey(event);" type="text" id="phone" name="phone" class="form-control" placeholder="Mobile">
                             </div>
+
+                            <div class="form-group">
+                                <label>Select Job</label>
+                                <select id="jobs" name="job_title">
+                                    <option value="">Select Job</option>
+                                        @foreach($jobvacancies as $item)
+                                    <option value="{{$item->title}}" >{{$item->title}} </option>
+                                        @endforeach
+                                    <option value="others">Others</option>
+                                </select>
+                            </div>
+
+
                             <div class="form-group">
                                 <textarea class="form-control" rows="5" id="applyingfor" name="applyingfor" placeholder="Applying For"></textarea>
                             </div>
@@ -137,18 +150,32 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="accordion" id="jobs_vacancy">
-                        <div class="card">
+                        @if($jobvacancies)
+                            @foreach($jobvacancies as $item)
+                                <div class="card">
                             <div class="card-header active" id="heading_job1" data-toggle="collapse" data-target="#job1" aria-expanded="true" aria-controls="job1">
                                 <div>
+
                                     <h4 class="mb-0">
-                                        Finance <span class="badge badge-info">Fulltime</span>
+                                        {{$item->title}}
+                                        @if($item->jobtype=="fulltime")
+                                            <span class="badge badge-info">Full Time</span>
+                                            @else
+                                            <span class="badge badge-info">Part Time</span>
+                                        @endif
                                     </h4>
-                                    <p class="mb-0"><img src="{{url('assets/images/location.svg')}}"> Malappuram</p>
+                                    <p class="mb-0"><img src="{{url('assets/images/location.svg')}}"> {{$item->location}}</p>
                                 </div>
                                 <div>
-                                    <div class="job_postdate">
-                                        <img src="{{url('assets/images/calendar.svg')}}"> February 19, 2019
-                                    </div>
+                                        <div class="job_postdate">
+                                            <img src="{{url('assets/images/calendar.svg')}}">
+                                            @php
+                                                $date=date_create($item->created_at);
+                                            @endphp
+                                            {{date_format($date,"d-m-Y")}}
+
+                                        </div>
+
                                     <div class="right_arrows float-right">
                                         <img src="{{url('assets/images/bottom.svg')}}">
                                     </div>
@@ -157,61 +184,17 @@
 
                             <div id="job1" class="collapse show" aria-labelledby="heading_job1" data-parent="#jobs_vacancy">
                                 <div class="card-body">
-                                    <p>
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is
-                                        simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and
-                                        typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    </p>
-                                    <ul class="list-unstyled">
-                                        <li>PIP</li>
-                                        <li>PMS</li>
-                                        <li>Culture</li>
-                                        <li>Talent Acquisition</li>
-                                        <li>Talent Development</li>
-                                        <li>Talent Admin</li>
-                                        <li>Recruitment</li>
-                                    </ul>
+                                    {!!$item->summary!!}
                                     <a href="" class="btn btn-orange mt-4">APPLY NOW</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="card">
-                            <div class="card-header" id="heading_job2" data-toggle="collapse" data-target="#job2" aria-expanded="true" aria-controls="job2">
-                                <h4 class="mb-0">
-                                    Human Assets <span class="badge badge-info">Part Time</span>
-                                </h4>
-                                <p class="mb-0"><img src="{{url('assets/images/location.svg')}}"> Malappuram</p>
-                                <div class="job_postdate">
-                                    <img src="{{url('assets/images/calendar.svg')}}"> February 19, 2019
-                                </div>
-                                <div class="right_arrows">
-                                    <img src="{{url('assets/images/bottom.svg')}}">
-                                </div>
-                            </div>
-
-                            <div id="job2" class="collapse" aria-labelledby="heading_job2" data-parent="#jobs_vacancy">
-                                <div class="card-body">
-                                    <p>
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is
-                                        simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and
-                                        typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    </p>
-                                    <ul class="list-unstyled">
-                                        <li>PIP</li>
-                                        <li>PMS</li>
-                                        <li>Culture</li>
-                                        <li>Talent Acquisition</li>
-                                        <li>Talent Development</li>
-                                        <li>Talent Admin</li>
-                                        <li>Recruitment</li>
-                                    </ul>
-                                    <a href="" class="btn btn-orange mt-4">APPLY NOW</a>
-                                </div>
-                            </div>
-                        </div>
+                            @endforeach
+                        @endif
 
                     </div>
                 </div>
+
             </div>
         </div>
     </section>

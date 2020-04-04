@@ -106,10 +106,10 @@
                                 <textarea name="summary" id="summary" class="form-control summernote"></textarea>
                                 </div>
                                 <div class="form-group">
-                                    <label>Now More Button Status</label>
+                                    <label>Know More Button Status</label>
                                     <select class="form-control" id="knowmore_button" name="knowmore_button">
                                         <option value="1" >Active </option>
-                                        <option value="0">Deactivate</option>
+                                        <option value="0" selected>Deactivate</option>
                                     </select>
                                 </div>
 
@@ -122,15 +122,11 @@
 
                                             <input type="file" name="file" class="filestyle file" data-input="false" id="filestyle-1" tabindex="-1" style="position: absolute; clip: rect(0px 0px 0px 0px);" onchange="document.getElementById('blah1').src = window.URL.createObjectURL(this.files[0])">
                                             <div class="bootstrap-filestyle input-group">
-<span class="group-span-filestyle" tabindex="0">
-<label for="filestyle-1" class="btn btn-default "><span class="icon-span-filestyle glyphicon glyphicon-folder-open"></span>
-<span class="buttonText">&nbsp;Select Photo</span></label></span></div>
-
+                                            <span class="group-span-filestyle" tabindex="0">
+                                            <label for="filestyle-1" class="btn btn-default "><span class="icon-span-filestyle glyphicon glyphicon-folder-open"></span>
+                                            <span class="buttonText">&nbsp;Select Photo</span></label></span></div>
 
                                         </th>
-
-
-
 
                                     </tr>
                                     </thead>
@@ -142,10 +138,6 @@
 
                                     </tbody>
                                 </table>
-
-
-
-
 
                                 <br>
                                 <button type="button" class="btn btn-primary actionBtn">Add</button>

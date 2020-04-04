@@ -72,7 +72,9 @@ class WebController extends Controller
     }
     public function job_vacancies()
     {
-        return view('site.oppurtunities.job_vacancies');
+        $data['jobvacancies'] = DB::table('jobvacancies')->orderBy('id','desc')->get();
+
+        return view('site.oppurtunities.job_vacancies',$data);
     }
     public function job_vacancies_submit(Request $request)
     {
@@ -87,6 +89,7 @@ class WebController extends Controller
             "name" =>$request->name,
             "email" =>$request->email,
             "phone" =>$request->phone,
+            "job_title" =>$request->job_title,
             "applyingfor" => $request->applyingfor,
             "resume" => $cv,
             "filename" => $file_first_Name,
