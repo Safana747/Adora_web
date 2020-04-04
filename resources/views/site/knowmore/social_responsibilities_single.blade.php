@@ -38,17 +38,13 @@
             </div>
             <div class="row images_list mt-5 justify-content-center">
 
-                @foreach($social_responsabilities as $index=>$item)
+                {{--@foreach($social_responsabilities as $index=>$item)--}}
 
-                    @php
-                        $num=$index+0
-                    @endphp
-
-                    <div class="{{($num==0?'col-md-6':'').($num%3==1?'col-md-12':'col-md-6') }}">
-                        <img src="{{url('assets/images/social_responsibilities/'.$item->image)}}" class="img-fluid img-object-cover">
+                    <div class="col-md-12">
+                        <img src="{{url('assets/images/social_responsibilities/'.$landing_first->image)}}" class="img-fluid img-object-cover">
                     </div>
 
-                @endforeach
+                {{--@endforeach--}}
             </div>
         </div>
     </section>

@@ -67,6 +67,7 @@ class LandingController extends Controller
                 "description" =>$request->description,
                 "summary" =>$request->summary,
                 "image" => $image_name,
+                "knowmore_button" =>$request->knowmore_button,
                 "created_at" => date("Y-m-d h:i:s")
             );
 

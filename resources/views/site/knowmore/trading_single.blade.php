@@ -38,17 +38,13 @@
                 </div>
             </div>            <div class="row images_list mt-5 justify-content-center">
 
-                @foreach($trading as $index=>$item)
+                {{--@foreach($trading as $index=>$item)--}}
 
-                    @php
-                        $num=$index+0
-                    @endphp
-
-                    <div class="{{($num==0?'col-md-6':'').($num%3==1?'col-md-12':'col-md-6') }}">
-                        <img src="{{url('assets/images/trading/'.$item->image)}}" class="img-fluid img-object-cover">
+                    <div class="col-md-12">
+                        <img src="{{url('assets/images/trading/'.$landing_first->image)}}" class="img-fluid img-object-cover">
                     </div>
 
-                @endforeach
+                {{--@endforeach--}}
             </div>
         </div>
     </section>
