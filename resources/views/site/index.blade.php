@@ -3,7 +3,9 @@
 @section('title', 'Adora Group')
 @push('styles')
     <link rel="stylesheet" href="{{url('assets/css/slick.css')}}">
-
+    <style>
+        body .header{background: transparent;}
+    </style>
 @endpush
 <div class="wrapper" style="max-width: 1920px;margin: auto;">
     <section class="home_slider">
@@ -94,7 +96,7 @@
                 <div class="col-md-3 case_heading">
                     <div>
                         <h3>CASE<br>STUDY</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+
                     </div>
                 </div>
                 <div class="col-md-9 case_slider">
@@ -165,6 +167,8 @@
                 slidesToScroll:1,
                 pauseOnHover:false,
                 dots: true,
+                cssEase:'linear',
+                fade:true,
                 nextArrow:true,
                 prevArrow:true,
             });
