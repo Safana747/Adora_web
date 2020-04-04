@@ -58,12 +58,13 @@
                             Compnay
                         </a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="{{route('web_company')}}">About</a>
+                            <a class="dropdown-item" href="{{route('web_company')}}">Our Story</a>
                             <a class="dropdown-item" href="{{route('web_company')}}#vision_mission">Vision & Mission</a>
                             <a class="dropdown-item" href="{{route('web_company')}}#team">Team</a>
                             <a class="dropdown-item" href="{{route('web_company')}}#group_companies">Group of Companies</a>
                             <a class="dropdown-item" href="{{route('web_company')}}#social_responsibilities">Social Responsibilities</a>
                             <a class="dropdown-item" href="{{route('web_company')}}#awards_achivements">Awards & Achivements</a>
+                            <a class="dropdown-item" href="{{route('web_contact')}}">Contact</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -148,7 +149,7 @@
                         <li><a href="{{route('web_company')}}">About</a></li>
                         <li><a href="{{route('web_company')}}#vision_mission">Vision & Mission</a></li>
                         <li><a href="{{route('web_company')}}#team">Team</a></li>
-                        <li><a href="{{route('web_company')}}#group_companies">Group ofCompanies</a></li>
+                        <li><a href="{{route('web_company')}}#group_companies">Group of Companies</a></li>
                         <li><a href="{{route('web_company')}}#social_responsibilities">Social Responsibilities</a></li>
                         <li><a href="{{route('web_company')}}#awards_achivements">Awards & Achivements</a></li>
                     </ul>
@@ -160,7 +161,7 @@
                         <li><a href="{{route('web_consulting')}}">Consulting</a></li>
                         <li><a href="{{route('web_contracting')}}">Contracting</a></li>
                         <li><a href="{{route('web_trading')}}">Trading</a></li>
-                        <li><a href="{{route('web_marketing_operations')}}">Operations</a></li>
+                        <li><a href="{{route('web_marketing_operations')}}">Marketing & Operations</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-6 footer_navigation">

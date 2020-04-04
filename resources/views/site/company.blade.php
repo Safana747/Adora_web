@@ -24,26 +24,37 @@
                 <div class="row">
                     <div class="col-md-8">
                         <p>
-                            It is a long established fact that a reader will be distracted by the readable content of a page when
-                            looking at its layout. The point of using Lorem Ipsum is that it has a more or less normal distribution
-                            of letters, as opposed to using Content here, content here', making it look like readable English. Many
-                            desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,
-                            and a search for lorem ipsum will uncover many web sites still in their infancy. Various versions have
-                            evolved over the years, sometimes by accident, sometimes on purpose (injected humour
-                            <br>
-                            <br>
-                            It is a long established fact that a reader will be distracted by the readable content of a page when
-                            looking at its layout. The point of using Lorem Ipsum is that it has a more or less normal distribution
-                            of letters, as opposed to using Content here, content here', making it look like readable English. Many
-                            desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,
-                            and a search for lorem ipsum will uncover many web sites still in their infancy. Various versions have
-                            evolved over the years, sometimes by accident,
+                            Adora was founded on 12th December 2011 at Kamala Building, Annie Hall Road Near Railway
+                            station Calicut by three colleagues of Hewlet Peckard(HP) service division, Mohammed Shad,
+                            Harish PA and Abdul Jaleel.The name Adora means gift and was suggested by HP service division
+                            senior engineer Mr.Baburaj which is derived from the word 'adorable’. Adora Started as
+                            small business of computer and printer service. Six months later Abdul Jaleel resigned
+                            from Adora team and we shrank into two but we got some corporate projects in 2012.Thus
+                            Adora became an end to end IT service provider by providing all IT related services to
+                            the public sector and corporate companies like India post,Bsnl, Indian railway, LSGD and
+                            DOKA GMBh. Then soon our business reached in Oman, Dubai and Saudi Arabia. In 2014 Harish
+                            PA resigned and the company was led by Mohammed Shad. Adora became managing partner during
+                            this period and completed several projects and maintenance contracts of India post, Doka, Wipro
+                            and nationalised banks.In 2014 Adora launched its first  sub brand <b>‘SailorERP’</b> software.<br>
+                            In 2016 Mohammed Naseem joined as business consultant.Later he started software consultancy
+                            at Bahrain named Adora Ghanawi softwares. Adora became ISO certified in 2017 and in the same
+                            year Adora became OYO authorized vendor.Thus we took huge leaps into success. Adora became a
+                            turnkey contractor with 10+ subcontractors and 50+ labourers. The company slogan changed
+                            from <b>Let's grow with technology</b> into <b>Featuring new methods.</b> In 2017 Abid Pulikkal joined as
+                            project Manager for Interior Projects. In 2018 he completed his first Turnkey Project at Oyo
+                            property in Calicut airport, Malappuram .Soon he focused on interior projects and completed
+                            several projects including projects of Indigo Airways and Several OYO Rooms. In 2020 We launched
+                            one more brand <b>‘Proserv’</b> exclusive for all in one maintenance ,small and home works ,Our team
+                            opened an Administrative office of <b>Adora Group</b> at Karippur, Near Calicut Airport to manage all
+                            our firms which includes Adora Infosolutions ,Adora Contracting Co ,Adora Interior Solutions,
+                            Famsum Ventures (P) Ltd.
+                            Now we are continuing our journey through the innovative path to success.
                         </p>
                     </div>
                     <div class="col-md-4 d-flex justify-content-center align-items-center">
                         <h2>
-                            ABOUT<br>
-                            Company
+                            OUR<br>
+                            STORY
                         </h2>
                     </div>
                 </div>
@@ -57,10 +68,8 @@
                     <div class="col-md-12">
                         <h4>VISION</h4>
                         <p>
-                            It is a long established fact that a reader will be distracted by the readable content
-                            of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more
-                            or less normal distribution
-
+                            To be the partner of choice of Startups, individuals and organizations in providing reliable
+                            solutions and resources  by featuring New Methods and  producing outstanding results for our clients.
                         </p>
                     </div>
                 </div>
@@ -68,9 +77,8 @@
                     <div class="col-md-12">
                         <h4>MISSION</h4>
                         <p>
-                            It is a long established fact that a reader will be distracted by the readable content of
-                            a page when looking at its layout. The point of using Lorem Ipsum is that it has a more or less normal distribution of letters,
-                            as opposed
+                            Our mission is to exceed expectations in providing excellent service, quality and outstanding value, for our client partners and employees.
+                            To be a valued partner to our clients and an asset to our communities and to provide a differentiated offering resulting in value-for-value returns
                         </p>
                     </div>
                 </div>

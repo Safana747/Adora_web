@@ -10,7 +10,7 @@
 <div class="wrapper" style="max-width: 1920px;margin: auto;">
     <section class="home_slider">
         <!-- slick -->
-        <div class="container">
+        <div class="container1">
             <div class="slick-slider">
                 @if($landing)
                     @foreach($landing as $item)
@@ -95,7 +95,7 @@
                 <div class="col-md-3 case_heading">
                     <div>
                         <h3>CASE<br>STUDY</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+
                     </div>
                 </div>
                 <div class="col-md-9 case_slider">

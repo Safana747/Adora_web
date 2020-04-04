@@ -64,7 +64,7 @@ a { text-decoration: none !important; }
 /*.slick-slider .d-flex .iso_logo:after{}*/
 .home_slider .slick-slider .d-flex .h1_class{font-weight: 900;padding-bottom: 20px;text-transform: uppercase;font-size: 36px;}
 .home_slider .slick-slider .d-flex p{font-weight: 100;font-size: 18px;padding-bottom: 15px;}
-.home_slider .slick-slider .d-flex div:nth-child(2){padding:0 30px 0 150px;}
+.home_slider .slick-slider .d-flex div:nth-child(2){padding:0 30px 0 150px;width: 60%;}
 
 /*slick slider*/
 
@@ -413,3 +413,22 @@ footer .copyright p{color: #ffffff;letter-spacing: 1px;}
 #toTop{position: fixed;right: 35px;bottom: 30px;}
 #toTop .svg_item{}
 #toTop .svg_item svg{width: 20px;height: 20px;transform: rotate(-45deg);}
+@media only screen and (min-width:1366px) and (max-width:1919px){
+    .home_slider .slick-slider .d-flex div:nth-child(2){padding: 0 30px 0 90px;}
+}
+@media only screen and (min-width:1024px) and (max-width:1365px) {
+    .home_slider .slick-slider .d-flex div:nth-child(2){padding: 0 30px 0 90px;}
+}
+@media only screen and (min-width:768px) and (max-width:1023px) {
+
+}
+@media only screen and (min-width:480px) and (max-width:767px) {
+
+}
+@media only screen and (min-width:320px) and (max-width:479px) {
+
+}
+@media screen and (max-width:319px) {
+
+}
+
