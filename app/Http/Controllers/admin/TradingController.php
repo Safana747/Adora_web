@@ -150,6 +150,22 @@ class TradingController extends Controller
         $item=DB::table('trading')->where('id', '=', $id)->first();
         if($item)
         {
+            //---------------------------------------------
+            $table_name='trading';
+            $image_path=public_path('assets/images/trading/');
+            //-----------------------------------------------------
+            $resultImg=DB::table('images')->where('table_name', '=', $table_name)->where('slider_id', '=', $id)->get();
+            foreach ($resultImg as $itemImg)
+            {
+                if (file_exists($image_path.$itemImg->image))
+                {
+                    unlink($image_path.$itemImg->image);
+                }
+                DB::table('images')->where('id',$itemImg->id)->delete();
+            }
+
+            //------------------------------------------------
+
             $image_path=public_path('assets/images/trading/') . $item->image;
             if (file_exists($image_path))
             {
@@ -161,6 +177,63 @@ class TradingController extends Controller
         else
         {
             return redirect('admin/business/trading');
+        }
+    }
+    public function uploadImg(Request $request, $ser_id = null)
+    {
+        $table_name = 'trading';
+        $success_url = 'admin/business/trading';
+        $upload_path = '/assets/images/trading/';
+//-------------------------------------------------------------
+        if (!($request->file('file'))) {
+            return redirect($success_url);
+        }
+        if (!$ser_id == null) {
+            //--------------START---------------------------------
+
+            $result = DB::table($table_name)->where('id', $ser_id)->first();
+            if (!($result)) {
+                return redirect($success_url);
+            } else {
+                $image = $request->file('file');
+                $image_name = uniqid() . time() . '.' . $image->getClientOriginalExtension();
+                $destinationPath = public_path($upload_path);
+                Image::make($image)->save($destinationPath . $image_name, 80);
+                $data = array(
+                    "table_name" => $table_name,
+                    "slider_id" => $ser_id,
+                    "image" => $image_name,
+                );
+                DB::table('images')->insert($data);
+                return redirect($success_url)->with("view_msg", "<div class='alert alert-success'>Successfully uploaded</div>");
+            }
+        } else {
+            return redirect($success_url);
+        }
+    }
+
+    public function deleteImg($id = null)
+    {
+        $success_url = 'admin/business/trading';
+        $delete_path = 'assets/images/trading/';
+        if (!$id == null) {
+            //--------------START---------------------------------
+            $result = DB::table('images')->where('id', $id)->first();
+            if ($result) {
+                //----------------DELETE START---------------------------
+                $folder = $delete_path;
+                if (file_exists($folder . $result->image)) {
+                    unlink($folder . $result->image);
+                }
+                DB::table('images')->where('id', $id)->delete();
+                return redirect($success_url)->with("view_msg", "<div class='alert alert-danger'>Deleted successfully</div>");
+                //------------------DELETE END-------------------------
+            } else {
+                return redirect($success_url);
+            }
+
+        } else {
+            return redirect($success_url);
         }
     }
 }

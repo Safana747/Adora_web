@@ -68,6 +68,9 @@ Route::group(['prefix'=>'admin','as'=>'admin.'], function(){
     Route::get('/home/edit/{id}', 'admin\LandingController@edit')->name('homeslider_edit');
     Route::post('/home/edit/{id}', 'admin\LandingController@update')->name('homeslider_update');
     Route::delete('/home/delete/{id}', 'admin\LandingController@delete')->name('homeslider_delete');
+    //multiple image
+    Route::post('/home/image_upload/{id}', 'admin\LandingController@uploadImg')->name('home_image_upload');
+    Route::get('/home/image_delete/{id}', 'admin\LandingController@deleteImg')->name('home_image_delete');
 
     //newthoughts
     Route::get('/home/newthoughts', 'admin\NewThoughtsController@index')->name('newthoughts');
@@ -76,6 +79,9 @@ Route::group(['prefix'=>'admin','as'=>'admin.'], function(){
     Route::get('/home/newthoughts/edit/{id}', 'admin\NewThoughtsController@edit')->name('newthoughts_edit');
     Route::post('/home/newthoughts/edit/{id}', 'admin\NewThoughtsController@update')->name('newthoughts_update');
     Route::delete('/home/newthoughts/delete/{id}', 'admin\NewThoughtsController@delete')->name('newthoughts_delete');
+    //multiple image
+    Route::post('/home/newthoughts/image_upload/{id}', 'admin\NewThoughtsController@uploadImg')->name('newthoughts_image_upload');
+    Route::get('/home/newthoughts/image_delete/{id}', 'admin\NewThoughtsController@deleteImg')->name('newthoughts_image_delete');
 
     //ongoingprojects
     Route::get('/home/ongoingprojects', 'admin\OngoingProjectsController@index')->name('ongoingprojects');
@@ -84,6 +90,9 @@ Route::group(['prefix'=>'admin','as'=>'admin.'], function(){
     Route::get('/home/ongoingprojects/edit/{id}', 'admin\OngoingProjectsController@edit')->name('ongoingprojects_edit');
     Route::post('/home/ongoingprojects/edit/{id}', 'admin\OngoingProjectsController@update')->name('ongoingprojects_update');
     Route::delete('/home/ongoingprojects/delete/{id}', 'admin\OngoingProjectsController@delete')->name('ongoingprojects_delete');
+    //multiple image
+    Route::post('/home/ongoingprojects/image_upload/{id}', 'admin\OngoingProjectsController@uploadImg')->name('ongoingprojects_image_upload');
+    Route::get('/home/ongoingprojects/image_delete/{id}', 'admin\OngoingProjectsController@deleteImg')->name('ongoingprojects_image_delete');
 
     //casestudies
     Route::get('/home/casestudies', 'admin\CaseStudiesController@index')->name('casestudies');
@@ -92,6 +101,9 @@ Route::group(['prefix'=>'admin','as'=>'admin.'], function(){
     Route::get('/home/casestudies/edit/{id}', 'admin\CaseStudiesController@edit')->name('casestudies_edit');
     Route::post('/home/casestudies/edit/{id}', 'admin\CaseStudiesController@update')->name('casestudies_update');
     Route::delete('/home/casestudies/delete/{id}', 'admin\CaseStudiesController@delete')->name('casestudies_delete');
+    //multiple image
+    Route::post('/home/casestudies/image_upload/{id}', 'admin\CaseStudiesController@uploadImg')->name('casestudies_image_upload');
+    Route::get('/home/casestudies/image_delete/{id}', 'admin\CaseStudiesController@deleteImg')->name('casestudies_image_delete');
 
     //clients
     Route::get('/home/clients', 'admin\ClientsController@index')->name('clients');
@@ -124,6 +136,9 @@ Route::group(['prefix'=>'admin','as'=>'admin.'], function(){
     Route::get('/company/social_responsibilities/edit/{id}', 'admin\SocialResponsobilities@edit')->name('social_responsibilities_edit');
     Route::post('/company/social_responsibilities/edit/{id}', 'admin\SocialResponsobilities@update')->name('social_responsibilities_update');
     Route::delete('/company/social_responsibilities/delete/{id}', 'admin\SocialResponsobilities@delete')->name('social_responsibilities_delete');
+    //multiple image
+    Route::post('/company/social_responsibilities/image_upload/{id}', 'admin\SocialResponsobilities@uploadImg')->name('social_responsibilities_image_upload');
+    Route::get('/company/social_responsibilities/image_delete/{id}', 'admin\SocialResponsobilities@deleteImg')->name('social_responsibilities_image_delete');
 
     //awards&achievements
     Route::get('/company/awards_achievements', 'admin\AwardsController@index')->name('awards_achievements');
@@ -132,6 +147,9 @@ Route::group(['prefix'=>'admin','as'=>'admin.'], function(){
     Route::get('/company/awards_achievements/edit/{id}', 'admin\AwardsController@edit')->name('awards_achievements_edit');
     Route::post('/company/awards_achievements/edit/{id}', 'admin\AwardsController@update')->name('awards_achievements_update');
     Route::delete('/company/awards_achievements/delete/{id}', 'admin\AwardsController@delete')->name('awards_achievements_delete');
+    //multiple image
+    Route::post('/company/awards_achievements/image_upload/{id}', 'admin\AwardsController@uploadImg')->name('awards_achievements_image_upload');
+    Route::get('/company/awards_achievements/image_delete/{id}', 'admin\AwardsController@deleteImg')->name('awards_achievements_image_delete');
 
     //Brands
     Route::get('/brands', 'admin\BrandsController@index')->name('brands');
@@ -148,6 +166,9 @@ Route::group(['prefix'=>'admin','as'=>'admin.'], function(){
     Route::get('/business/it_automation/edit/{id}', 'admin\ItAutomationController@edit')->name('it_automation_edit');
     Route::post('/business/it_automation/edit/{id}', 'admin\ItAutomationController@update')->name('it_automation_update');
     Route::delete('/business/it_automation/delete/{id}', 'admin\ItAutomationController@delete')->name('it_automation_delete');
+    //multiple image
+    Route::post('/business/it_automation/image_upload/{id}', 'admin\ItAutomationController@uploadImg')->name('it_automation_image_upload');
+    Route::get('/business/it_automation/image_delete/{id}', 'admin\ItAutomationController@deleteImg')->name('it_automation_image_delete');
 
     //consulting
     Route::get('/business/consulting', 'admin\ConsultingController@index')->name('consulting');
@@ -156,6 +177,10 @@ Route::group(['prefix'=>'admin','as'=>'admin.'], function(){
     Route::get('/business/consulting/edit/{id}', 'admin\ConsultingController@edit')->name('consulting_edit');
     Route::post('/business/consulting/edit/{id}', 'admin\ConsultingController@update')->name('consulting_update');
     Route::delete('/business/consulting/delete/{id}', 'admin\ConsultingController@delete')->name('consulting_delete');
+    //multiple image
+    Route::post('/business/consulting/image_upload/{id}', 'admin\ConsultingController@uploadImg')->name('consulting_image_upload');
+    Route::get('/business/consulting/image_delete/{id}', 'admin\ConsultingController@deleteImg')->name('consulting_image_delete');
+
 
     //contracting
     Route::get('/business/contracting', 'admin\ContractingController@index')->name('contracting');
@@ -164,6 +189,9 @@ Route::group(['prefix'=>'admin','as'=>'admin.'], function(){
     Route::get('/business/contracting/edit/{id}', 'admin\ContractingController@edit')->name('contracting_edit');
     Route::post('/business/contracting/edit/{id}', 'admin\ContractingController@update')->name('contracting_update');
     Route::delete('/business/contracting/delete/{id}', 'admin\ContractingController@delete')->name('contracting_delete');
+    //multiple image
+    Route::post('/business/contracting/image_upload/{id}', 'admin\ContractingController@uploadImg')->name('contracting_image_upload');
+    Route::get('/business/contracting/image_delete/{id}', 'admin\ContractingController@deleteImg')->name('contracting_image_delete');
 
     //trading
     Route::get('/business/trading', 'admin\TradingController@index')->name('trading');
@@ -172,6 +200,9 @@ Route::group(['prefix'=>'admin','as'=>'admin.'], function(){
     Route::get('/business/trading/edit/{id}', 'admin\TradingController@edit')->name('trading_edit');
     Route::post('/business/trading/edit/{id}', 'admin\TradingController@update')->name('trading_update');
     Route::delete('/business/trading/delete/{id}', 'admin\TradingController@delete')->name('trading_delete');
+    //multiple image
+    Route::post('/business/trading/image_upload/{id}', 'admin\TradingController@uploadImg')->name('trading_image_upload');
+    Route::get('/business/trading/image_delete/{id}', 'admin\TradingController@deleteImg')->name('trading_image_delete');
 
     //operations
     Route::get('/business/operations', 'admin\OperationsController@index')->name('operations');
@@ -180,6 +211,9 @@ Route::group(['prefix'=>'admin','as'=>'admin.'], function(){
     Route::get('/business/operations/edit/{id}', 'admin\OperationsController@edit')->name('operations_edit');
     Route::post('/business/operations/edit/{id}', 'admin\OperationsController@update')->name('operations_update');
     Route::delete('/business/operations/delete/{id}', 'admin\OperationsController@delete')->name('operations_delete');
+    //multiple image
+    Route::post('/business/operations/image_upload/{id}', 'admin\OperationsController@uploadImg')->name('operations_image_upload');
+    Route::get('/business/operations/image_delete/{id}', 'admin\OperationsController@deleteImg')->name('operations_image_delete');
 
     //Job Vacancies
     Route::get('/jobvacancies', 'admin\JobVacanciesController@index')->name('jobvacancies');

@@ -36,16 +36,25 @@
                     {!!$landing_first->summary!!}
                 </div>
             </div>
+
             <div class="row images_list mt-5 justify-content-center">
-
-                {{--@foreach($casestudies as $index=>$item)--}}
-
-                    <div class="col-md-12">
-                        <img src="{{url('assets/images/casestudies/'.$landing_first->image)}}" class="img-fluid img-object-cover">
+                @php
+                    $m_image=DB::table('images')
+                    ->where('table_name','casestudies')
+                    ->where('slider_id',$landing_first->id)
+                    ->orderBy('id','desc')
+                    ->get();
+                @endphp
+                @foreach($m_image as $index=>$item)
+                    @php
+                        $num=$index+1
+                    @endphp
+                    <div class="{{$num%3==0?'col-md-12':'col-md-6'}}">
+                        <img src="{{url('assets/images/casestudies/'.$item->image)}}" class="img-fluid img-object-cover">
                     </div>
-
-                {{--@endforeach--}}
+                @endforeach
             </div>
+
         </div>
     </section>
 </div>
