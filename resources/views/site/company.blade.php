@@ -166,7 +166,7 @@
                                         <img src="{{url('assets/images/award.svg')}}" class="img-fluid">
                                     </div>
                                     <h5 class="card-title"> {{$item->title}} </h5>
-                                    @if($item->knowmore_button==0)
+                                    @if($item->knowmore_button==1)
                                     <a href="{{route('web_awards_single',$item->seo_url)}}" class="d-flex">LEARN MORE <img src="{{url('assets/images/arrow.svg')}}" width="15"> </a>
                                     @endif
                                 </div>

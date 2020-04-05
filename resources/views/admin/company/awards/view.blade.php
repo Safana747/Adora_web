@@ -47,6 +47,7 @@
                                     <th>Name</th>
                                     <th>Description</th>
                                     <th>Image</th>
+                                    <th>Multiple Images</th>
                                     <th>Action</th>
                                 </tr>
                                 </thead>
@@ -74,13 +75,43 @@
                                     <tr>
                                         <th scope="row">{{$index + $result->firstItem()}}</th>
                                         <td>{{$item->title}}</td>
-                                        <td>{{$item->description}}</td>
+                                        <td width="20%">{{$item->description}}</td>
                                         <td>
                                             <img src="{{url('assets/images/awards_achievements/'.$item->image)}}" width="100" height="100">
                                         </td>
 
                                         <td>
 
+                                            <form method="post" action="{{route('admin.awards_achievements_image_upload',$item->id)}}" enctype="multipart/form-data">
+                                                @csrf
+                                                <div class="input-group col-md-6">
+                                                    <div class="custom-file">
+                                                        <input type="file" name="file" class="form-control">
+                                                    </div>
+                                                    <div class="input-group-append">
+                                                        <input type="submit" value="upload" class="btn btn-success">
+                                                    </div>
+                                                </div>
+                                            </form>
+                                            <hr/>
+                                            @php
+
+                                                $m_image=DB::table('images')
+                                                ->where('table_name','awards')
+                                                ->where('slider_id',$item->id)
+                                                ->get();
+                                            @endphp
+
+                                            @foreach($m_image as $multi_image)
+                                                <img width="100" height="100" src="{{url('assets/images/awards_achievements/'.$multi_image->image)}}" alt="img" class="img-fluid">
+                                                <a onclick="return confirm('Are you sure you want to delete this item?');" href="{{route('admin.awards_achievements_image_delete',$multi_image->id)}}" class="btn btn-icon btn-danger">
+                                                    <i class="fa fa-trash"></i>
+                                                </a>
+                                            @endforeach
+
+                                        </td>
+
+                                        <td>
                                             <a href="{{route('admin.awards_achievements_edit',$item->id)}}"
                                                class="btn btn-info" title="Edit"><i class="fa fa-edit"></i></a>
                                             <a onclick="del_itm('{{route('admin.awards_achievements_delete',$item->id)}}')" href='javascript:void(0)' class='btn btn-danger'

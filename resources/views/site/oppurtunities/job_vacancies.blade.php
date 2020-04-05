@@ -153,7 +153,7 @@
                         @if($jobvacancies)
                             @foreach($jobvacancies as $item)
                                 <div class="card">
-                            <div class="card-header active" id="heading_job1" data-toggle="collapse" data-target="#job1" aria-expanded="true" aria-controls="job1">
+                            <div class="card-header active" id="heading_job_{{$item->id}}" data-toggle="collapse" data-target="#job_{{$item->id}}" aria-expanded="true" aria-controls="job_{{$item->id}}">
                                 <div>
 
                                     <h4 class="mb-0">
@@ -182,7 +182,7 @@
                                 </div>
                             </div>
 
-                            <div id="job1" class="collapse show" aria-labelledby="heading_job1" data-parent="#jobs_vacancy">
+                            <div id="job_{{$item->id}}" class="collapse show" aria-labelledby="heading_job_{{$item->id}}" data-parent="#jobs_vacancy">
                                 <div class="card-body">
                                     {!!$item->summary!!}
                                     <a href="" class="btn btn-orange mt-4">APPLY NOW</a>

@@ -148,6 +148,21 @@ class NewThoughtsController extends Controller
         $item=DB::table('newthoughts')->where('id', '=', $id)->first();
         if($item)
         {
+            //---------------------------------------------
+            $table_name='newthoughts';
+            $image_path=public_path('assets/images/newthoughts/');
+            //-----------------------------------------------------
+            $resultImg=DB::table('images')->where('table_name', '=', $table_name)->where('slider_id', '=', $id)->get();
+            foreach ($resultImg as $itemImg)
+            {
+                if (file_exists($image_path.$itemImg->image))
+                {
+                    unlink($image_path.$itemImg->image);
+                }
+                DB::table('images')->where('id',$itemImg->id)->delete();
+            }
+
+            //------------------------------------------------
             $image_path=public_path('assets/images/newthoughts/') . $item->image;
             if (file_exists($image_path))
             {
@@ -159,6 +174,63 @@ class NewThoughtsController extends Controller
         else
         {
             return redirect('admin/home/newthoughts');
+        }
+    }
+    public function uploadImg(Request $request, $ser_id = null)
+    {
+        $table_name = 'newthoughts';
+        $success_url = 'admin/home/newthoughts';
+        $upload_path = '/assets/images/newthoughts/';
+//-------------------------------------------------------------
+        if (!($request->file('file'))) {
+            return redirect($success_url);
+        }
+        if (!$ser_id == null) {
+            //--------------START---------------------------------
+
+            $result = DB::table($table_name)->where('id', $ser_id)->first();
+            if (!($result)) {
+                return redirect($success_url);
+            } else {
+                $image = $request->file('file');
+                $image_name = uniqid() . time() . '.' . $image->getClientOriginalExtension();
+                $destinationPath = public_path($upload_path);
+                Image::make($image)->save($destinationPath . $image_name, 80);
+                $data = array(
+                    "table_name" => $table_name,
+                    "slider_id" => $ser_id,
+                    "image" => $image_name,
+                );
+                DB::table('images')->insert($data);
+                return redirect($success_url)->with("view_msg", "<div class='alert alert-success'>Successfully uploaded</div>");
+            }
+        } else {
+            return redirect($success_url);
+        }
+    }
+
+    public function deleteImg($id = null)
+    {
+        $success_url = 'admin/home/newthoughts';
+        $delete_path = 'assets/images/newthoughts/';
+        if (!$id == null) {
+            //--------------START---------------------------------
+            $result = DB::table('images')->where('id', $id)->first();
+            if ($result) {
+                //----------------DELETE START---------------------------
+                $folder = $delete_path;
+                if (file_exists($folder . $result->image)) {
+                    unlink($folder . $result->image);
+                }
+                DB::table('images')->where('id', $id)->delete();
+                return redirect($success_url)->with("view_msg", "<div class='alert alert-danger'>Deleted successfully</div>");
+                //------------------DELETE END-------------------------
+            } else {
+                return redirect($success_url);
+            }
+
+        } else {
+            return redirect($success_url);
         }
     }
 

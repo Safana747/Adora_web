@@ -47,6 +47,7 @@
                                     <th>Name</th>
                                     <th>Description</th>
                                     <th>Image</th>
+                                    <td>Multiple Images</td>
                                     <th>Action</th>
                                 </tr>
                                 </thead>
@@ -74,9 +75,41 @@
                                     <tr>
                                         <th scope="row">{{$index + $result->firstItem()}}</th>
                                         <td>{{$item->title}}</td>
-                                        <td>{{$item->description}}</td>
+                                        <td width="20%">{{$item->description}}</td>
                                         <td>
                                             <img src="{{url('assets/images/it_automation/'.$item->image)}}" width="100" height="100">
+                                        </td>
+
+                                        <td >
+
+                                            <form method="post" action="{{route('admin.it_automation_image_upload',$item->id)}}" enctype="multipart/form-data">
+                                                @csrf
+                                                <div class="input-group col-md-6">
+                                                    <div class="custom-file">
+                                                        <input type="file" name="file" class="form-control">
+                                                    </div>
+                                                    <div class="input-group-append">
+                                                        <input type="submit" value="upload" class="btn btn-success">
+                                                    </div>
+                                                </div>
+                                            </form>
+                                            <hr/>
+                                            @php
+
+                                                $m_image=DB::table('images')
+                                                ->where('table_name','it_automation')
+                                                ->where('slider_id',$item->id)
+                                                ->get();
+                                            @endphp
+
+                                            @foreach($m_image as $multi_image)
+                                                <img width="100" height="100" src="{{url('assets/images/it_automation/'.$multi_image->image)}}" alt="img" class="img-fluid">
+                                                <a onclick="return confirm('Are you sure you want to delete this item?');" href="{{route('admin.it_automation_image_delete',$multi_image->id)}}" class="btn btn-icon btn-danger">
+                                                    <i class="fa fa-trash"></i>
+                                                </a>
+
+                                            @endforeach
+
                                         </td>
 
                                         <td>

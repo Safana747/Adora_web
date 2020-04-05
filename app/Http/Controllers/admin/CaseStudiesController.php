@@ -148,6 +148,22 @@ class CaseStudiesController extends Controller
         $item=DB::table('casestudies')->where('id', '=', $id)->first();
         if($item)
         {
+            //---------------------------------------------
+            $table_name='casestudies';
+            $image_path=public_path('assets/images/casestudies/');
+            //-----------------------------------------------------
+            $resultImg=DB::table('images')->where('table_name', '=', $table_name)->where('slider_id', '=', $id)->get();
+            foreach ($resultImg as $itemImg)
+            {
+                if (file_exists($image_path.$itemImg->image))
+                {
+                    unlink($image_path.$itemImg->image);
+                }
+                DB::table('images')->where('id',$itemImg->id)->delete();
+            }
+
+            //------------------------------------------------
+
             $image_path=public_path('assets/images/casestudies/') . $item->image;
             if (file_exists($image_path))
             {
@@ -160,6 +176,63 @@ class CaseStudiesController extends Controller
         else
         {
             return redirect('admin/home/casestudies');
+        }
+    }
+    public function uploadImg(Request $request, $ser_id = null)
+    {
+        $table_name = 'casestudies';
+        $success_url = 'admin/home/casestudies';
+        $upload_path = '/assets/images/casestudies/';
+//-------------------------------------------------------------
+        if (!($request->file('file'))) {
+            return redirect($success_url);
+        }
+        if (!$ser_id == null) {
+            //--------------START---------------------------------
+
+            $result = DB::table($table_name)->where('id', $ser_id)->first();
+            if (!($result)) {
+                return redirect($success_url);
+            } else {
+                $image = $request->file('file');
+                $image_name = uniqid() . time() . '.' . $image->getClientOriginalExtension();
+                $destinationPath = public_path($upload_path);
+                Image::make($image)->save($destinationPath . $image_name, 80);
+                $data = array(
+                    "table_name" => $table_name,
+                    "slider_id" => $ser_id,
+                    "image" => $image_name,
+                );
+                DB::table('images')->insert($data);
+                return redirect($success_url)->with("view_msg", "<div class='alert alert-success'>Successfully uploaded</div>");
+            }
+        } else {
+            return redirect($success_url);
+        }
+    }
+
+    public function deleteImg($id = null)
+    {
+        $success_url = 'admin/home/casestudies';
+        $delete_path = 'assets/images/casestudies/';
+        if (!$id == null) {
+            //--------------START---------------------------------
+            $result = DB::table('images')->where('id', $id)->first();
+            if ($result) {
+                //----------------DELETE START---------------------------
+                $folder = $delete_path;
+                if (file_exists($folder . $result->image)) {
+                    unlink($folder . $result->image);
+                }
+                DB::table('images')->where('id', $id)->delete();
+                return redirect($success_url)->with("view_msg", "<div class='alert alert-danger'>Deleted successfully</div>");
+                //------------------DELETE END-------------------------
+            } else {
+                return redirect($success_url);
+            }
+
+        } else {
+            return redirect($success_url);
         }
     }
 

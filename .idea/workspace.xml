@@ -3,6 +3,43 @@
   <component name="ChangeListManager">
     <list default="true" id="4819e657-e0c7-47a4-bcca-ea4a1657160f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/admin/AwardsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/admin/AwardsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/admin/CaseStudiesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/admin/CaseStudiesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/admin/ConsultingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/admin/ConsultingController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/admin/ContractingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/admin/ContractingController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/admin/ItAutomationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/admin/ItAutomationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/admin/LandingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/admin/LandingController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/admin/NewThoughtsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/admin/NewThoughtsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/admin/OngoingProjectsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/admin/OngoingProjectsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/admin/OperationsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/admin/OperationsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/admin/SocialResponsobilities.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/admin/SocialResponsobilities.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/admin/TradingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/admin/TradingController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/business/consulting/view.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/business/consulting/view.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/business/contracting/view.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/business/contracting/view.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/business/it_automation/view.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/business/it_automation/view.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/business/operations/view.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/business/operations/view.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/business/trading/view.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/business/trading/view.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/company/awards/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/company/awards/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/company/awards/view.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/company/awards/view.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/company/social_responsobilities/view.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/company/social_responsobilities/view.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/landing/casestudies/view.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/landing/casestudies/view.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/landing/newthoughts/view.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/landing/newthoughts/view.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/landing/ongoingprojects/view.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/landing/ongoingprojects/view.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/landing/view.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/landing/view.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/company.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/company.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/knowmore/awards_single.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/knowmore/awards_single.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/knowmore/casestudy_single.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/knowmore/casestudy_single.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/knowmore/consulting_single.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/knowmore/consulting_single.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/knowmore/contracting_single.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/knowmore/contracting_single.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/knowmore/it_single.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/knowmore/it_single.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/knowmore/newthought_single.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/knowmore/newthought_single.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/knowmore/ongoingprojects_single.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/knowmore/ongoingprojects_single.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/knowmore/operations_single.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/knowmore/operations_single.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/knowmore/social_responsibilities_single.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/knowmore/social_responsibilities_single.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/knowmore/trading_single.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/knowmore/trading_single.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/oppurtunities/job_vacancies.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/oppurtunities/job_vacancies.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/single.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/single.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,8 +56,8 @@
       <file leaf-file-name="add.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/business/consulting/add.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="106" column="68" selection-start-line="106" selection-start-column="68" selection-end-line="106" selection-end-column="68" />
+            <state relative-caret-position="-864">
+              <caret line="72" selection-start-line="72" selection-end-line="72" />
               <folding>
                 <element signature="e#122#129#1" expanded="true" />
                 <element signature="e#122#129#1" expanded="true" />
@@ -31,104 +68,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="company.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/site/company.blade.php">
+      <file leaf-file-name="LandingController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/LandingController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="123" column="42" selection-start-line="123" selection-start-column="42" selection-end-line="123" selection-end-column="42" />
+            <state relative-caret-position="297">
+              <caret line="60" column="69" selection-start-line="60" selection-start-column="59" selection-end-line="60" selection-end-column="69" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/site/index.blade.php">
+      <file leaf-file-name="JobApplications.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/JobApplications.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="135" column="14" selection-start-line="135" selection-start-column="14" selection-end-line="135" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="28" column="82" selection-start-line="28" selection-start-column="82" selection-end-line="28" selection-end-column="82" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/company/awards/add.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="113" column="66" selection-start-line="113" selection-start-column="66" selection-end-line="113" selection-end-column="66" />
+            <state relative-caret-position="521">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
               <folding>
-                <element signature="e#122#129#1" expanded="true" />
-                <element signature="e#122#129#1" expanded="true" />
-                <element signature="e#122#129#1" expanded="true" />
-                <element signature="e#122#129#1" expanded="true" />
+                <element signature="e#46#74#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/company/social_responsobilities/add.blade.php">
+      <file leaf-file-name="JobVacanciesController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/JobVacanciesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="111" column="66" selection-start-line="111" selection-start-column="66" selection-end-line="111" selection-end-column="66" />
-              <folding>
-                <element signature="e#122#129#1" expanded="true" />
-                <element signature="e#122#129#1" expanded="true" />
-                <element signature="e#122#129#1" expanded="true" />
-                <element signature="e#122#129#1" expanded="true" />
-              </folding>
-            </state>
+            <state relative-caret-position="-1134" />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/landing/casestudies/add.blade.php">
+      <file leaf-file-name="single.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/site/single.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="112" column="66" selection-start-line="112" selection-start-column="66" selection-end-line="112" selection-end-column="66" />
-              <folding>
-                <element signature="e#122#129#1" expanded="true" />
-                <element signature="e#122#129#1" expanded="true" />
-                <element signature="e#122#129#1" expanded="true" />
-                <element signature="e#122#129#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/landing/newthoughts/add.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="119" column="66" selection-start-line="119" selection-start-column="66" selection-end-line="119" selection-end-column="66" />
-              <folding>
-                <element signature="e#122#129#1" expanded="true" />
-                <element signature="e#122#129#1" expanded="true" />
-                <element signature="e#122#129#1" expanded="true" />
-                <element signature="e#122#129#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/landing/ongoingprojects/add.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="120" column="66" selection-start-line="120" selection-start-column="66" selection-end-line="120" selection-end-column="66" />
-              <folding>
-                <element signature="e#122#129#1" expanded="true" />
-                <element signature="e#122#129#1" expanded="true" />
-                <element signature="e#122#129#1" expanded="true" />
-                <element signature="e#122#129#1" expanded="true" />
-              </folding>
+            <state relative-caret-position="81">
+              <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -136,8 +108,42 @@
       <file leaf-file-name="add.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/landing/add.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
+            <state relative-caret-position="454">
               <caret line="111" column="62" selection-start-line="111" selection-start-column="40" selection-end-line="111" selection-end-column="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/jobvacancies/view.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-648" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="job_vacancies.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/site/oppurtunities/job_vacancies.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="999">
+              <caret line="184" column="120" selection-start-line="184" selection-start-column="120" selection-end-line="184" selection-end-column="120" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="consulting_single.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/site/knowmore/consulting_single.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="54" column="18" selection-start-line="38" selection-start-column="12" selection-end-line="54" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/company/awards/view.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="85" column="53" selection-start-line="85" selection-start-column="53" selection-end-line="85" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -173,57 +179,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/resources/views/admin/landing/ongoingprojects/edit.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/landing/edit.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/admin/JobApplications.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/landing/add.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/business/contracting/add.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/business/it_automation/add.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/business/operations/add.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/business/trading/add.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/company/social_responsobilities/add.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/landing/casestudies/add.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/landing/newthoughts/add.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/landing/ongoingprojects/add.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/site/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/business/consulting/add.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/admin/ConsultingController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/admin/ContractingController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/admin/ItAutomationController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/business/contracting/view.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/business/consulting/view.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/business/it_automation/view.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/site/knowmore/consulting_single.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/admin/OperationsController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/business/operations/view.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/admin/TradingController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/admin/AwardsController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/admin/SocialResponsobilities.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/company/social_responsobilities/view.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/admin/CaseStudiesController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/admin/TradingController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/landing/casestudies/view.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/admin/NewThoughtsController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/landing/newthoughts/view.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/admin/OngoingProjectsController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/landing/ongoingprojects/view.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/admin/LandingController.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/landing/view.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/site/knowmore/awards_single.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/business/trading/view.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/company/awards/view.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/company/awards/add.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/site/company.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/site/knowmore/casestudy_single.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/site/knowmore/contracting_single.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/site/knowmore/it_single.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/site/knowmore/newthought_single.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/site/knowmore/awards_single.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/site/knowmore/casestudy_single.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/site/knowmore/consulting_single.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/site/knowmore/contracting_single.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/site/knowmore/ongoingprojects_single.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/site/knowmore/operations_single.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/site/knowmore/social_responsibilities_single.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/site/knowmore/trading_single.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/site/single.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/admin/JobVacanciesController.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/jobvacancies/add.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/jobvacancies/edit.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/jobvacancies/view.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/WebController.php" />
         <option value="$PROJECT_DIR$/resources/views/site/oppurtunities/job_vacancies.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/job_applications/view.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/admin/ConsultingController.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/business/consulting/edit.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/business/contracting/edit.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/business/it_automation/edit.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/business/operations/edit.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/business/trading/edit.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/landing/casestudies/edit.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/landing/newthoughts/edit.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/landing/ongoingprojects/edit.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/landing/edit.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/admin/JobApplications.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/landing/add.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/business/consulting/add.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/business/contracting/add.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/business/it_automation/add.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/business/operations/add.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/business/trading/add.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/company/awards/add.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/company/social_responsobilities/add.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/landing/casestudies/add.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/landing/newthoughts/add.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/landing/ongoingprojects/add.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/site/company.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/site/index.blade.php" />
       </list>
     </option>
   </component>
@@ -331,7 +337,7 @@
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-5" />
     <option name="width" value="1940" />
     <option name="height" value="1050" />
@@ -418,14 +424,6 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="brands" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="adora" type="b2602c69:ProjectViewProjectNode" />
-              <item name="adora" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
               <item name="business" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -436,33 +434,6 @@
               <item name="admin" type="462c0819:PsiDirectoryNode" />
               <item name="business" type="462c0819:PsiDirectoryNode" />
               <item name="consulting" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="adora" type="b2602c69:ProjectViewProjectNode" />
-              <item name="adora" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="business" type="462c0819:PsiDirectoryNode" />
-              <item name="contracting" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="adora" type="b2602c69:ProjectViewProjectNode" />
-              <item name="adora" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="business" type="462c0819:PsiDirectoryNode" />
-              <item name="it_automation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="adora" type="b2602c69:ProjectViewProjectNode" />
-              <item name="adora" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="business" type="462c0819:PsiDirectoryNode" />
-              <item name="operations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="adora" type="b2602c69:ProjectViewProjectNode" />
@@ -496,23 +467,6 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="social_responsobilities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="adora" type="b2602c69:ProjectViewProjectNode" />
-              <item name="adora" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="job_applications" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="adora" type="b2602c69:ProjectViewProjectNode" />
-              <item name="adora" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
               <item name="jobvacancies" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -522,33 +476,6 @@
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
               <item name="landing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="adora" type="b2602c69:ProjectViewProjectNode" />
-              <item name="adora" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="landing" type="462c0819:PsiDirectoryNode" />
-              <item name="casestudies" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="adora" type="b2602c69:ProjectViewProjectNode" />
-              <item name="adora" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="landing" type="462c0819:PsiDirectoryNode" />
-              <item name="newthoughts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="adora" type="b2602c69:ProjectViewProjectNode" />
-              <item name="adora" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="landing" type="462c0819:PsiDirectoryNode" />
-              <item name="ongoingprojects" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="adora" type="b2602c69:ProjectViewProjectNode" />
@@ -571,6 +498,22 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="site" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adora" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adora" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+              <item name="business" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adora" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adora" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+              <item name="knowmore" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="adora" type="b2602c69:ProjectViewProjectNode" />
@@ -646,25 +589,36 @@
       <workItem from="1585802583092" duration="41751000" />
       <workItem from="1585882032620" duration="35441000" />
       <workItem from="1585991978361" duration="27286000" />
+      <workItem from="1586027208548" duration="707000" />
+      <workItem from="1586060164018" duration="24822000" />
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1586027282827</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586027282827</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="226095000" />
+    <option name="totallyTimeSpent" value="251624000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-4" y="0" width="1552" height="840" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14899328" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15281501" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50067115" side_tool="true" weight="0.21082622" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067115" side_tool="true" weight="0.21082622" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32954547" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32954547" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49932885" visible="true" weight="0.21082622" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49932885" visible="true" weight="0.21022727" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -675,27 +629,6 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26072386" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.0" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -729,468 +662,182 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/TradingController.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/company/social_responsobilities/add.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="67" column="62" selection-start-line="67" selection-start-column="62" selection-end-line="67" selection-end-column="62" />
+        <state relative-caret-position="2997">
+          <caret line="111" column="66" selection-start-line="111" selection-start-column="66" selection-end-line="111" selection-end-column="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/CaseStudiesController.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/landing/casestudies/add.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="66" column="62" selection-start-line="66" selection-start-column="62" selection-end-line="66" selection-end-column="62" />
+        <state relative-caret-position="3024">
+          <caret line="112" column="66" selection-start-line="112" selection-start-column="66" selection-end-line="112" selection-end-column="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/NewThoughtsController.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/landing/newthoughts/add.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="66" column="62" selection-start-line="66" selection-start-column="62" selection-end-line="66" selection-end-column="62" />
+        <state relative-caret-position="3213">
+          <caret line="119" column="66" selection-start-line="119" selection-start-column="66" selection-end-line="119" selection-end-column="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/OngoingProjectsController.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/landing/ongoingprojects/add.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="66" column="62" selection-start-line="66" selection-start-column="62" selection-end-line="66" selection-end-column="62" />
+        <state relative-caret-position="3240">
+          <caret line="120" column="66" selection-start-line="120" selection-start-column="66" selection-end-line="120" selection-end-column="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/LandingController.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/site/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2214">
-          <caret line="69" column="62" selection-start-line="69" selection-start-column="62" selection-end-line="69" selection-end-column="62" />
+        <state relative-caret-position="3645">
+          <caret line="135" column="14" selection-start-line="135" selection-start-column="14" selection-end-line="135" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/site/knowmore/it_single.blade.php">
+    <entry file="file://$USER_HOME$/Downloads/Telegram Desktop/web (2).php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="44" column="85" selection-start-line="44" selection-start-column="85" selection-end-line="44" selection-end-column="85" />
+        <state relative-caret-position="135">
+          <caret line="161" lean-forward="true" selection-start-line="159" selection-start-column="4" selection-end-line="161" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/site/knowmore/consulting_single.blade.php">
+    <entry file="file://$USER_HOME$/Downloads/Telegram Desktop/view.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="40" column="62" selection-start-line="40" selection-start-column="62" selection-end-line="40" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/site/knowmore/casestudy_single.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="40" column="63" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/site/knowmore/contracting_single.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1107">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/site/knowmore/ongoingprojects_single.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="42" column="41" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/site/knowmore/operations_single.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1161">
-          <caret line="43" column="82" selection-start-line="43" selection-start-column="82" selection-end-line="43" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/site/knowmore/trading_single.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1161">
-          <caret line="43" column="79" selection-start-line="43" selection-start-column="79" selection-end-line="43" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/site/knowmore/social_responsibilities_single.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1161">
-          <caret line="43" column="95" selection-start-line="43" selection-start-column="95" selection-end-line="43" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/site/single.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/site/knowmore/awards_single.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="35" column="49" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/jobvacancies/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="92" column="96" selection-start-line="92" selection-start-column="77" selection-end-line="92" selection-end-column="96" />
+        <state relative-caret-position="-541">
+          <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="60" />
           <folding>
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
+            <element signature="e#3052#5731#0#HTML" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/jobvacancies/view.blade.php">
+    <entry file="file://$USER_HOME$/Downloads/Telegram Desktop/ConsultingController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="81" column="51" lean-forward="true" selection-start-line="81" selection-start-column="51" selection-end-line="81" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/jobvacancies/add.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="91" column="39" selection-start-line="87" selection-start-column="32" selection-end-line="93" selection-end-column="38" />
+        <state relative-caret-position="573">
+          <caret line="165" column="57" lean-forward="true" selection-start-line="151" selection-start-column="7" selection-end-line="165" selection-end-column="57" />
           <folding>
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/site/oppurtunities/job_vacancies.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="118" column="51" selection-start-line="118" selection-start-column="51" selection-end-line="118" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/business/consulting/view.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="78" column="100" lean-forward="true" selection-start-line="78" selection-start-column="54" selection-end-line="78" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/job_applications/view.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/site/knowmore/newthought_single.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1250">
-          <caret line="47" column="15" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/JobVacanciesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="70" column="18" lean-forward="true" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
-          <folding>
-            <element signature="e#46#74#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/admin.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="940">
-          <caret line="139" column="15" selection-start-line="139" selection-start-column="15" selection-end-line="139" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/site/business/consulting.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/business/consulting/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="111" column="45" selection-start-line="111" selection-start-column="45" selection-end-line="111" selection-end-column="45" />
-          <folding>
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/business/contracting/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="111" column="45" selection-start-line="111" selection-start-column="45" selection-end-line="111" selection-end-column="45" />
-          <folding>
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/business/it_automation/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="103" column="45" selection-start-line="103" selection-start-column="45" selection-end-line="103" selection-end-column="45" />
-          <folding>
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/business/operations/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="109" column="45" selection-start-line="109" selection-start-column="45" selection-end-line="109" selection-end-column="45" />
-          <folding>
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/business/trading/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="111" column="45" selection-start-line="111" selection-start-column="45" selection-end-line="111" selection-end-column="45" />
-          <folding>
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/landing/casestudies/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="113" column="45" selection-start-line="113" selection-start-column="45" selection-end-line="113" selection-end-column="45" />
-          <folding>
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/landing/newthoughts/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="107" column="45" selection-start-line="107" selection-start-column="45" selection-end-line="107" selection-end-column="45" />
-          <folding>
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/landing/ongoingprojects/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="106" column="45" selection-start-line="106" selection-start-column="45" selection-end-line="106" selection-end-column="45" />
-          <folding>
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/landing/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
-          <folding>
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WebController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-703">
-          <caret line="93" column="19" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="19" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
+            <element signature="e#6254#7765#0#PHP" />
+            <element signature="e#7770#8829#0#PHP" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/ConsultingController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="152" column="13" lean-forward="true" selection-start-line="150" selection-start-column="12" selection-end-line="154" selection-end-column="13" />
+        <state relative-caret-position="384">
+          <caret line="227" column="23" lean-forward="true" selection-start-line="227" selection-start-column="23" selection-end-line="227" selection-end-column="23" />
           <folding>
             <element signature="e#46#74#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/JobApplications.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/business/contracting/view.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="114">
+          <caret line="91" column="48" lean-forward="true" selection-start-line="91" selection-start-column="48" selection-end-line="91" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/business/consulting/view.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-291">
+          <caret line="103" column="173" selection-start-line="103" selection-start-column="173" selection-end-line="103" selection-end-column="173" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/business/operations/view.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-707">
+          <caret line="72" column="55" selection-start-line="72" selection-start-column="55" selection-end-line="72" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/business/it_automation/view.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="77" column="55" selection-start-line="77" selection-start-column="44" selection-end-line="77" selection-end-column="55" />
           <folding>
-            <element signature="e#46#74#0#PHP" expanded="true" />
+            <element signature="e#3070#5154#0#HTML" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/business/contracting/add.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/company/social_responsobilities/view.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="112" column="66" selection-start-line="112" selection-start-column="66" selection-end-line="112" selection-end-column="66" />
-          <folding>
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-          </folding>
+        <state relative-caret-position="184">
+          <caret line="77" column="55" selection-start-line="77" selection-start-column="55" selection-end-line="77" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/business/it_automation/add.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/landing/casestudies/view.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="113" column="66" selection-start-line="113" selection-start-column="66" selection-end-line="113" selection-end-column="66" />
-          <folding>
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-          </folding>
+        <state relative-caret-position="103">
+          <caret line="105" column="115" selection-start-line="105" selection-start-column="115" selection-end-line="105" selection-end-column="115" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/business/operations/add.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/landing/newthoughts/view.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="110" column="66" selection-start-line="110" selection-start-column="66" selection-end-line="110" selection-end-column="66" />
-          <folding>
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-          </folding>
+        <state relative-caret-position="211">
+          <caret line="104" column="115" selection-start-line="104" selection-start-column="115" selection-end-line="104" selection-end-column="115" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/business/trading/add.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/landing/ongoingprojects/view.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="112" column="66" selection-start-line="112" selection-start-column="66" selection-end-line="112" selection-end-column="66" />
-          <folding>
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-          </folding>
+        <state relative-caret-position="346">
+          <caret line="105" column="119" selection-start-line="105" selection-start-column="119" selection-end-line="105" selection-end-column="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/landing/view.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="105" column="114" selection-start-line="105" selection-start-column="114" selection-end-line="105" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="151" column="140" selection-start-line="151" selection-start-column="108" selection-end-line="151" selection-end-column="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/knowmore/awards_single.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="42" column="48" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/AwardsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="170" column="29" selection-start-line="170" selection-start-column="23" selection-end-line="170" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/business/trading/view.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="80" column="53" lean-forward="true" selection-start-line="80" selection-start-column="53" selection-end-line="80" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/company/awards/add.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="113" column="66" selection-start-line="113" selection-start-column="66" selection-end-line="113" selection-end-column="66" />
-          <folding>
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/company/social_responsobilities/add.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="111" column="66" selection-start-line="111" selection-start-column="66" selection-end-line="111" selection-end-column="66" />
-          <folding>
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/landing/casestudies/add.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="112" column="66" selection-start-line="112" selection-start-column="66" selection-end-line="112" selection-end-column="66" />
-          <folding>
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/landing/newthoughts/add.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="119" column="66" selection-start-line="119" selection-start-column="66" selection-end-line="119" selection-end-column="66" />
-          <folding>
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/landing/ongoingprojects/add.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="120" column="66" selection-start-line="120" selection-start-column="66" selection-end-line="120" selection-end-column="66" />
-          <folding>
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-            <element signature="e#122#129#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/landing/add.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="111" column="62" selection-start-line="111" selection-start-column="40" selection-end-line="111" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/business/consulting/add.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="106" column="68" selection-start-line="106" selection-start-column="68" selection-end-line="106" selection-end-column="68" />
+        <state relative-caret-position="135">
+          <caret line="110" column="45" selection-start-line="110" selection-start-column="45" selection-end-line="110" selection-end-column="45" />
           <folding>
             <element signature="e#122#129#1" expanded="true" />
             <element signature="e#122#129#1" expanded="true" />
@@ -1202,22 +849,200 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/site/company.blade.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1222">
+          <caret line="168" column="65" selection-start-line="168" selection-start-column="65" selection-end-line="168" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/CaseStudiesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="182" column="34" selection-start-line="182" selection-start-column="23" selection-end-line="182" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/knowmore/casestudy_single.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="42" column="53" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/knowmore/contracting_single.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="51" column="66" selection-start-line="51" selection-start-column="66" selection-end-line="51" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/ContractingController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="175" column="50" selection-start-line="175" selection-start-column="39" selection-end-line="175" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/ItAutomationController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="183" column="52" selection-start-line="183" selection-start-column="39" selection-end-line="183" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/knowmore/it_single.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="51" column="68" selection-start-line="51" selection-start-column="68" selection-end-line="51" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/business/consulting.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-648" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/NewThoughtsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="180" column="34" selection-start-line="180" selection-start-column="23" selection-end-line="180" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/knowmore/newthought_single.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="51" column="66" selection-start-line="51" selection-start-column="66" selection-end-line="51" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/knowmore/ongoingprojects_single.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="51" column="70" selection-start-line="51" selection-start-column="70" selection-end-line="51" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/OngoingProjectsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="182" column="54" selection-start-line="182" selection-start-column="39" selection-end-line="182" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/knowmore/operations_single.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="51" column="65" selection-start-line="51" selection-start-column="65" selection-end-line="51" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/OperationsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="182" column="33" selection-start-line="182" selection-start-column="23" selection-end-line="182" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/SocialResponsobilities.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="183" column="62" selection-start-line="183" selection-start-column="39" selection-end-line="183" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/knowmore/social_responsibilities_single.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
-          <caret line="123" column="42" selection-start-line="123" selection-start-column="42" selection-end-line="123" selection-end-column="42" />
+          <caret line="51" column="78" selection-start-line="51" selection-start-column="78" selection-end-line="51" selection-end-column="78" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/site/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/JobApplications.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="135" column="14" selection-start-line="135" selection-start-column="14" selection-end-line="135" selection-end-column="14" />
+        <state relative-caret-position="521">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#46#74#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/JobVacanciesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="28" column="82" selection-start-line="28" selection-start-column="82" selection-end-line="28" selection-end-column="82" />
+        <state relative-caret-position="-1134" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/knowmore/trading_single.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="52" column="62" selection-start-line="52" selection-start-column="62" selection-end-line="52" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/TradingController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="185" column="46" selection-start-line="185" selection-start-column="39" selection-end-line="185" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/business/consulting/add.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-864">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+          <folding>
+            <element signature="e#122#129#1" expanded="true" />
+            <element signature="e#122#129#1" expanded="true" />
+            <element signature="e#122#129#1" expanded="true" />
+            <element signature="e#122#129#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/company/awards/view.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="85" column="53" selection-start-line="85" selection-start-column="53" selection-end-line="85" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/LandingController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="60" column="69" selection-start-line="60" selection-start-column="59" selection-end-line="60" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/knowmore/consulting_single.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="54" column="18" selection-start-line="38" selection-start-column="12" selection-end-line="54" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/single.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/landing/add.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="111" column="62" selection-start-line="111" selection-start-column="40" selection-end-line="111" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/jobvacancies/view.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-648" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/oppurtunities/job_vacancies.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="999">
+          <caret line="184" column="120" selection-start-line="184" selection-start-column="120" selection-end-line="184" selection-end-column="120" />
         </state>
       </provider>
     </entry>
