@@ -114,8 +114,7 @@
                             </div>
 
                             <div class="form-group">
-                                <label>Select Job</label>
-                                <select id="jobs" name="job_title">
+                                <select id="jobs" class="custom-select" name="job_title">
                                     <option value="">Select Job</option>
                                         @foreach($jobvacancies as $item)
                                     <option value="{{$item->title}}" >{{$item->title}} </option>
@@ -153,7 +152,7 @@
                         @if($jobvacancies)
                             @foreach($jobvacancies as $item)
                                 <div class="card">
-                            <div class="card-header active" id="heading_job_{{$item->id}}" data-toggle="collapse" data-target="#job_{{$item->id}}" aria-expanded="true" aria-controls="job_{{$item->id}}">
+                            <div class="card-header" id="heading_job_{{$item->id}}" data-toggle="collapse" data-target="#job_{{$item->id}}" aria-expanded="true" aria-controls="job_{{$item->id}}">
                                 <div>
 
                                     <h4 class="mb-0">
@@ -182,7 +181,7 @@
                                 </div>
                             </div>
 
-                            <div id="job_{{$item->id}}" class="collapse show" aria-labelledby="heading_job_{{$item->id}}" data-parent="#jobs_vacancy">
+                            <div id="job_{{$item->id}}" class="collapse" aria-labelledby="heading_job_{{$item->id}}" data-parent="#jobs_vacancy">
                                 <div class="card-body">
                                     {!!$item->summary!!}
                                     <a href="" class="btn btn-orange mt-4">APPLY NOW</a>

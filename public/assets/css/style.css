@@ -365,6 +365,7 @@ footer .copyright p{color: #ffffff;letter-spacing: 1px;}
 }
 .jobs .job_form h4{font-weight: 600;font-size: 20px;color: #1B2A55;text-align: center;padding-bottom: 20px;}
 .jobs .job_form .form-control{font-size: 14px;border-radius: 20px;border: 1px solid #1B2A55;padding: 20px 20px;box-shadow: none;outline: none;}
+.jobs .job_form .custom-select{font-size: 14px;border-radius: 20px;border: 1px solid #1B2A55;box-shadow: none;outline: none;}
 .job_vacancy{padding-bottom: 80px;}
 .job_vacancy h4{color: #1B2A55;font-size: 45px;font-weight: 800;padding-bottom: 20px;}
 .job_vacancy .accordion .card{margin-bottom: 20px;border: none;box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);border-radius: 10px;}
