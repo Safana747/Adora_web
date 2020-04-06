@@ -55,13 +55,13 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Compnay
+                            Company
                         </a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="{{route('web_company')}}">Our Story</a>
                             <a class="dropdown-item" href="{{route('web_company')}}#vision_mission">Vision & Mission</a>
                             <a class="dropdown-item" href="{{route('web_company')}}#team">Team</a>
-                            <a class="dropdown-item" href="{{route('web_company')}}#group_companies">Group of Companies</a>
+                            <a class="dropdown-item" href="{{route('web_company')}}#group_companies">Group Companies</a>
                             <a class="dropdown-item" href="{{route('web_company')}}#social_responsibilities">Social Responsibilities</a>
                             <a class="dropdown-item" href="{{route('web_company')}}#awards_achivements">Awards & Achivements</a>
                             <a class="dropdown-item" href="{{route('web_contact')}}">Contact</a>
@@ -80,7 +80,7 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{route('web_our_brands')}}">Our Brands</a>
+                        <a class="nav-link" href="{{route('web_our_brands')}}">Brands</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -125,18 +125,13 @@
                         <li>
                             <ul class="list-inline socialmedia">
                                 <li class="list-inline-item">
-                                    <a href="">
+                                    <a href="https://www.facebook.com/adoragroup.in" target="_blank">
                                         <img src="{{url('assets/images/facebook.svg')}}" class="img-fluid" alt="Facebook" title="Facebook">
                                     </a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="">
+                                    <a href="https://www.instagram.com/adoragroup.in/" target="_blank">
                                         <img src="{{url('assets/images/instagram.svg')}}" class="img-fluid" alt="Instagram" title="Instagram">
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="">
-                                        <img src="{{url('assets/images/twitter.svg')}}" class="img-fluid" alt="Twitter" title="Twitter">
                                     </a>
                                 </li>
                             </ul>
@@ -171,7 +166,7 @@
                         <li><a href="{{route('web_job_vacancies')}}">Job Vacancies</a></li>
                         <li></li>
                         <li><a href="{{route('web_contact')}}">Contact</a></li>
-                        <li><a href="{{route('web_our_brands')}}">Our Brands</a></li>
+                        <li><a href="{{route('web_our_brands')}}">Brands</a></li>
                     </ul>
                 </div>
                 <div class="col-xl-12 copyright text-center">

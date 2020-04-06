@@ -25,18 +25,13 @@
                 <div class="col-md-3 main_address">
                     <ul class="list-unstyled con_social">
                         <li class="">
-                            <a href="">
+                            <a href="https://www.facebook.com/adoragroup.in" target="_blank">
                                 <img src="{{url('assets/images/facebook.svg')}}" class="img-fluid" alt="Facebook" title="Facebook">
                             </a>
                         </li>
                         <li class="">
-                            <a href="">
+                            <a href="https://www.instagram.com/adoragroup.in/" target="_blank">
                                 <img src="{{url('assets/images/instagram.svg')}}" class="img-fluid" alt="Instagram" title="Instagram">
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="">
-                                <img src="{{url('assets/images/twitter.svg')}}" class="img-fluid" alt="Twitter" title="Twitter">
                             </a>
                         </li>
                     </ul>

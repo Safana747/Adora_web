@@ -71,8 +71,8 @@
                     <div class="media">
                         <img src="{{url('assets/images/ongoingprojects/'.$item->image)}}" class="img-object-cover" alt="Ongoing Projects" title="Ongoing Projects">
                         <div class="media-body">
-                            <h5 class="mt-0">{{$item->title}}</h5>
-                            <p>
+                            <h5 class="mt-0 overflowtext">{{$item->title}}</h5>
+                            <p class="overflowtext">
                                 {{$item->description}}
                             </p>
 
@@ -106,7 +106,7 @@
                             <div class="card">
                                 <img src="{{url('assets/images/casestudies/'.$item->image)}}" class="card-img-top" alt="Case Study" title="Case Study">
                                 <div class="card-body">
-                                    <h5 class="card-title">{{$item->title}} </h5>
+                                    <h5 class="card-title ">{{$item->title}} </h5>
                                     @if($item->knowmore_button==1)
                                     <a href="{{route('web_casestudy_single',$item->seo_url)}}" class="d-flex">LEARN MORE <img src="{{url('assets/images/arrow.svg')}}" width="15"> </a>
                                     @endif
