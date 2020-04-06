@@ -7,6 +7,7 @@ use App\Http\Controllers\Controller;
 use DB;
 use Auth;
 use Image;
+use Validator;
 
 class LandingController extends Controller
 {
@@ -184,6 +185,24 @@ class LandingController extends Controller
         $table_name = 'landing';
         $success_url = 'admin/home';
         $upload_path = '/assets/images/homeslider/';
+        $rules = array(
+            'file' => 'required|mimes:jpg,jpeg,gif,png |max:3612',
+        );
+
+        $messsages = array(
+            'required' => 'Please Select image',
+            'mimes' => "Please insert image only 'jpg', 'jpeg', 'gif', 'png' format",
+            'max'   => 'Image should be less than 3 MB',
+        );
+        //customMessages
+        $validate = Validator::make($request->all(), $rules, $messsages);
+
+        if ($validate->fails()) {
+            return back()->with('view_msg',"<div class='alert alert-danger'>".$validate->messages()->first()."</div>");
+
+        }
+
+
 //-------------------------------------------------------------
         if (!($request->file('file'))) {
             return redirect($success_url);
