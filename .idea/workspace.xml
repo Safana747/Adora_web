@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4819e657-e0c7-47a4-bcca-ea4a1657160f" name="Default" comment="">
+    <list default="true" id="4819e657-e0c7-47a4-bcca-ea4a1657160f" name="Default" comment="validation for multiple images">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/social_responsibilities/5e88caf9a4fd71586023161.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/site/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/site/oppurtunities/become_partner.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/oppurtunities/become_partner.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/site/oppurtunities/job_vacancies.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/oppurtunities/job_vacancies.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,30 +18,24 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/assets/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="487" column="49" selection-start-line="487" selection-start-column="49" selection-end-line="487" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/site/index.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4267">
-              <caret line="251" column="22" selection-start-line="251" selection-start-column="22" selection-end-line="251" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file leaf-file-name="company.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/site/company.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4233">
-              <caret line="249" column="13" selection-start-line="229" selection-start-column="12" selection-end-line="249" selection-end-column="13" />
+            <state relative-caret-position="134">
+              <caret line="123" column="42" selection-start-line="123" selection-start-column="4" selection-end-line="123" selection-end-column="42" />
+              <folding>
+                <element signature="e#8280#9935#0#HTML" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="166" column="79" lean-forward="true" selection-start-line="166" selection-start-column="79" selection-end-line="166" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -63,9 +55,6 @@
       <find>.svg</find>
       <find>.png</find>
       <find>assets</find>
-      <find>job_con</find>
-      <find>case_study .case_slider .slick-slider_3 .card h5</find>
-      <find>.home_slider .slick-slider .d-flex p</find>
     </findStrings>
     <replaceStrings>
       <replace>.js')}}</replace>
@@ -77,11 +66,14 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/resources/views/admin/landing/edit.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/admin/JobApplications.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/landing/add.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/business/contracting/add.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/business/it_automation/add.blade.php" />
@@ -91,6 +83,7 @@
         <option value="$PROJECT_DIR$/resources/views/admin/landing/casestudies/add.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/landing/newthoughts/add.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/landing/ongoingprojects/add.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/site/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/business/consulting/add.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/business/contracting/view.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/business/consulting/view.blade.php" />
@@ -117,6 +110,7 @@
         <option value="$PROJECT_DIR$/resources/views/site/knowmore/social_responsibilities_single.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/site/knowmore/trading_single.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/site/single.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/site/oppurtunities/job_vacancies.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/admin/ConsultingController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/admin/AwardsController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/admin/CaseStudiesController.php" />
@@ -128,11 +122,7 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/admin/OperationsController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/admin/SocialResponsobilities.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/admin/TradingController.php" />
-        <option value="$PROJECT_DIR$/resources/views/site/oppurtunities/become_partner.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/site/oppurtunities/job_vacancies.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/site/index.blade.php" />
-        <option value="$PROJECT_DIR$/public/assets/css/style.css" />
       </list>
     </option>
   </component>
@@ -149,9 +139,6 @@
       <path value="$PROJECT_DIR$/public/assets/admin/vendor/ckeditor/package.json" />
       <path value="$PROJECT_DIR$/public/assets/admin/vendor/morrisjs/package.json" />
     </packageJsonPaths>
-  </component>
-  <component name="PackageJsonUpdateNotifier">
-    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -243,12 +230,15 @@
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-5" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
     <option name="width" value="1940" />
     <option name="height" value="1050" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -259,59 +249,178 @@
         <subPane>
           <expand>
             <path>
-              <item name="adora.in" type="b2602c69:ProjectViewProjectNode" />
-              <item name="adora.in" type="462c0819:PsiDirectoryNode" />
+              <item name="adora" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adora" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="adora.in" type="b2602c69:ProjectViewProjectNode" />
-              <item name="adora.in" type="462c0819:PsiDirectoryNode" />
+              <item name="adora" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adora" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adora" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adora" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adora" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adora" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adora" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adora" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adora" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adora" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adora" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adora" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="adora.in" type="b2602c69:ProjectViewProjectNode" />
-              <item name="adora.in" type="462c0819:PsiDirectoryNode" />
+              <item name="adora" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adora" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="adora.in" type="b2602c69:ProjectViewProjectNode" />
-              <item name="adora.in" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="adora.in" type="b2602c69:ProjectViewProjectNode" />
-              <item name="adora.in" type="462c0819:PsiDirectoryNode" />
+              <item name="adora" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adora" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="adora.in" type="b2602c69:ProjectViewProjectNode" />
-              <item name="adora.in" type="462c0819:PsiDirectoryNode" />
+              <item name="adora" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adora" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="adora.in" type="b2602c69:ProjectViewProjectNode" />
-              <item name="adora.in" type="462c0819:PsiDirectoryNode" />
+              <item name="adora" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adora" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adora" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adora" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="business" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adora" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adora" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="business" type="462c0819:PsiDirectoryNode" />
+              <item name="consulting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adora" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adora" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="business" type="462c0819:PsiDirectoryNode" />
+              <item name="trading" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adora" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adora" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adora" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adora" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="awards" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adora" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adora" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="jobvacancies" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adora" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adora" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="landing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adora" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adora" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="settings" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adora" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adora" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="adora.in" type="b2602c69:ProjectViewProjectNode" />
-              <item name="adora.in" type="462c0819:PsiDirectoryNode" />
+              <item name="adora" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adora" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="site" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="adora.in" type="b2602c69:ProjectViewProjectNode" />
-              <item name="adora.in" type="462c0819:PsiDirectoryNode" />
+              <item name="adora" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adora" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+              <item name="business" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adora" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adora" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+              <item name="knowmore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adora" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adora" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="site" type="462c0819:PsiDirectoryNode" />
               <item name="oppurtunities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adora" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adora" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -324,7 +433,6 @@
     <property name="last_opened_file_path" value="F:/businesslisting" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
@@ -377,8 +485,9 @@
       <workItem from="1585991978361" duration="27286000" />
       <workItem from="1586027208548" duration="707000" />
       <workItem from="1586060164018" duration="25722000" />
-      <workItem from="1586153440450" duration="6049000" />
-      <workItem from="1586238492391" duration="142000" />
+      <workItem from="1586153440450" duration="6386000" />
+      <workItem from="1586252861169" duration="2103000" />
+      <workItem from="1586255036792" duration="1889000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1586027282827</created>
@@ -394,57 +503,43 @@
       <option name="project" value="LOCAL" />
       <updated>1586103711649</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="validation for multiple images">
+      <created>1586165743688</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586165743688</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="266889000" />
+    <option name="totallyTimeSpent" value="262902000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="0" width="1552" height="840" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15445544" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1590604" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067115" side_tool="true" weight="0.21082622" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32954547" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067115" side_tool="true" weight="0.32905984" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49932885" weight="0.32905984" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49932885" visible="true" weight="0.21022727" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4986577" visible="true" weight="0.13247864" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26072386" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.0" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -481,11 +576,59 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="multiple image,job vacancies accordion" />
-    <option name="LAST_COMMIT_MESSAGE" value="multiple image,job vacancies accordion" />
+    <MESSAGE value="validation for multiple images" />
+    <option name="LAST_COMMIT_MESSAGE" value="validation for multiple images" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/Telegram Desktop/view.blade.php" />
-    <entry file="file://$USER_HOME$/Downloads/Telegram Desktop/ConsultingController.php" />
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/landing/casestudies/add.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3024">
+          <caret line="112" column="66" selection-start-line="112" selection-start-column="66" selection-end-line="112" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/landing/newthoughts/add.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3213">
+          <caret line="119" column="66" selection-start-line="119" selection-start-column="66" selection-end-line="119" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/landing/ongoingprojects/add.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3240">
+          <caret line="120" column="66" selection-start-line="120" selection-start-column="66" selection-end-line="120" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3645">
+          <caret line="135" column="14" selection-start-line="135" selection-start-column="14" selection-end-line="135" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Telegram Desktop/web (2).php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="161" lean-forward="true" selection-start-line="159" selection-start-column="4" selection-end-line="161" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Telegram Desktop/view.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-541">
+          <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Telegram Desktop/ConsultingController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="165" column="57" lean-forward="true" selection-start-line="151" selection-start-column="7" selection-end-line="165" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/business/contracting/view.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -679,6 +822,13 @@
     <entry file="file://$PROJECT_DIR$/resources/views/admin/jobvacancies/view.blade.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/oppurtunities/job_vacancies.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3529">
+          <caret line="184" column="120" selection-start-line="184" selection-start-column="120" selection-end-line="184" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/business/consulting/add.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1842">
@@ -695,8 +845,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/CaseStudiesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
+        <state relative-caret-position="108">
           <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="e#46#74#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -709,113 +862,98 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/ContractingController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
+        <state relative-caret-position="108">
           <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="e#46#74#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/ItAutomationController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
+        <state relative-caret-position="108">
           <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/LandingController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="e#46#74#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/NewThoughtsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
+        <state relative-caret-position="108">
           <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="e#46#74#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/OngoingProjectsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
+        <state relative-caret-position="108">
           <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="e#46#74#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/OperationsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
+        <state relative-caret-position="108">
           <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="e#46#74#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/SocialResponsobilities.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
+        <state relative-caret-position="108">
           <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="e#46#74#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/TradingController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4293">
+        <state relative-caret-position="243">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="e#46#74#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/LandingController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
           <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/site/oppurtunities/become_partner.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="94" column="175" selection-start-line="94" selection-start-column="175" selection-end-line="94" selection-end-column="175" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="147" column="84" selection-start-line="147" selection-start-column="84" selection-end-line="147" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/site/oppurtunities/job_vacancies.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="105" column="59" selection-start-line="105" selection-start-column="59" selection-end-line="105" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="5" column="78833" selection-start-line="5" selection-start-column="78833" selection-end-line="5" selection-end-column="79103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/site/contact.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="32" column="77" selection-start-line="32" selection-start-column="77" selection-end-line="32" selection-end-column="77" />
+          <folding>
+            <element signature="e#46#74#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/site/company.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4233">
-          <caret line="249" column="13" selection-start-line="229" selection-start-column="12" selection-end-line="249" selection-end-column="13" />
+        <state relative-caret-position="134">
+          <caret line="123" column="42" selection-start-line="123" selection-start-column="4" selection-end-line="123" selection-end-column="42" />
+          <folding>
+            <element signature="e#8280#9935#0#HTML" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/site/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4267">
-          <caret line="251" column="22" selection-start-line="251" selection-start-column="22" selection-end-line="251" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="487" column="49" selection-start-line="487" selection-start-column="49" selection-end-line="487" selection-end-column="49" />
+        <state relative-caret-position="351">
+          <caret line="166" column="79" lean-forward="true" selection-start-line="166" selection-start-column="79" selection-end-line="166" selection-end-column="79" />
         </state>
       </provider>
     </entry>
