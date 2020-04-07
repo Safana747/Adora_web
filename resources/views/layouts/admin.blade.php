@@ -150,6 +150,9 @@
                     <li {{isset($menu)?($menu==6?'class=active':''):''}}>
                         <a href="{{route('admin.job_applications')}}"><i class="fa fa-list"></i><span>Job Applications</span></a>
                     </li>
+                    <li {{isset($menu)?($menu==7?'class=active':''):''}}>
+                        <a href="{{route('admin.partnership')}}"><i class="fa fa-list"></i><span>Partnership</span></a>
+                    </li>
 
                     <li class="heading">Settings</li>
 

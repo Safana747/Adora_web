@@ -227,6 +227,11 @@ Route::group(['prefix'=>'admin','as'=>'admin.'], function(){
     Route::get('/job_applications', 'admin\JobApplications@index')->name('job_applications');
     Route::delete('/job_applications/delete/{id}', 'admin\JobApplications@delete')->name('job_applications_delete');
 
+    //Partnership
+    Route::get('/partnership', 'admin\PartnershipController@index')->name('partnership');
+    Route::delete('/partnership/delete/{id}', 'admin\PartnershipController@delete')->name('partnership_delete');
+
+
     //Settings
     Route::get('/settings', 'admin\SettingsController@edit')->name('settings');
     Route::post('/settings', 'admin\SettingsController@update')->name('settings_update');
