@@ -104,7 +104,7 @@
             <div class="row">
                 <div class="col-md-12 text-center d-flex justify-content-between">
                     <p>Download Our Business App</p>
-                    <a href="https://play.google.com/store?hl=en" target="_blank">
+                    <a href="https://play.google.com/store/apps/details?id=com.adora.mrm&hl=en_IN" target="_blank">
                         <img src="{{url('assets/images/googleplay.png')}}" class="img-fluid">
                     </a>
                 </div>
@@ -120,7 +120,8 @@
                     <h4>CONTACT</h4>
                     <ul class="list-unstyled">
                         <li>TEL: 0483 2712200</li>
-                        <li>Mobile: 9656584947</li>
+                        <li>General: all@adoragroup.in</li>
+                        <li>Help: care@adoragroup.in</li>
                         <li>Email: <a href="mailto:sales@adoragroup.in">sales@adoragroup.in</a></li>
                         <li>
                             <ul class="list-inline socialmedia">
@@ -144,7 +145,7 @@
                         <li><a href="{{route('web_company')}}">About</a></li>
                         <li><a href="{{route('web_company')}}#vision_mission">Vision & Mission</a></li>
                         <li><a href="{{route('web_company')}}#team">Team</a></li>
-                        <li><a href="{{route('web_company')}}#group_companies">Group of Companies</a></li>
+                        <li><a href="{{route('web_company')}}#group_companies">Group Companies</a></li>
                         <li><a href="{{route('web_company')}}#social_responsibilities">Social Responsibilities</a></li>
                         <li><a href="{{route('web_company')}}#awards_achivements">Awards & Achivements</a></li>
                     </ul>

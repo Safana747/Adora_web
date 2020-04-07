@@ -82,18 +82,28 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-7 job_con">
-                    <h4>
-                        It is a long established fact that
-                        will be distracted by the readable content
-                    </h4>
+                    <h4>Our people are our greatest asset</h4>
+                    <h6 class="font-weight-bold">Eligibility Criteria</h6>
+                    <ul class="">
+                        <li>Minimum Qualification of +2 /ITI / Diploma</li>
+                        <li>Minimum Age 20 years</li>
+                    </ul>
+                    <h6 class="font-weight-bold pt-3">Documents required</h6>
+                    <ul>
+                        <li>All original mark sheets related to SSC/CBSC (10th Class), Also, please carry a copy of set of all documents at the time of interview.</li>
+                        <li>A copy of candidate's updated resume.</li>
+                        <li>Passport size photographs.</li>
+                        <li>An original identification proof issued by the government of India (Aadhar Card, Pan Card, Voter id, Passport etc.)</li>
+                    </ul>
                     <p>
-                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
-                        Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)
-                        <br><br>making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)
-                        making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+                        Want to know More About Our Job Vacancy
+                        Call /whatsapp
+                        <a href="https://api.whatsapp.com/send?phone=919656584947&text=&source=&data=" target="_blank">09656584947</a> / <a href="tel:04832712200">04832712200</a> or send a mail to
+                        <a href="mailto:hr@adoragroup.in">hr@adoragroup.in</a>
+
                     </p>
                 </div>
-                <div class="col-md-5 job_form">
+                <div class="col-md-5 job_form" id="applynow">
                     <div class="col-md-12">
                         <h4>LOOKING FOR OPPORTUNITIES</h4>
                         <div id="msg">
@@ -184,7 +194,7 @@
                             <div id="job_{{$item->id}}" class="collapse" aria-labelledby="heading_job_{{$item->id}}" data-parent="#jobs_vacancy">
                                 <div class="card-body">
                                     {!!$item->summary!!}
-                                    <a href="" class="btn btn-orange mt-4">APPLY NOW</a>
+                                    <a href="#applynow" class="btn btn-orange mt-4">APPLY NOW</a>
                                 </div>
                             </div>
                         </div>

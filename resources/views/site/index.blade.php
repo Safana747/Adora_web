@@ -19,7 +19,7 @@
                                 <div><img src="{{url('assets/images/homeslider/'.$item->image)}}" class="img-fluid img-object-cover"> </div>
                                 <div>
                                     <div class="h1_class">{{$item->title}}</div>
-                                    <p>{{$item->description}}</p>
+                                    <p class="overflowtext">{{$item->description}}</p>
 
                                     @if($item->knowmore_button==1)
                                         <a href="{{route('web_single',$item->seo_url)}}" class="btn btn-orange">KNOW MORE</a>
@@ -93,20 +93,20 @@
     <section class="case_study">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-3 case_heading">
+                <div class="col-lg-3 col-md-4 case_heading">
                     <div>
                         <h3>CASE<br>STUDY</h3>
 
                     </div>
                 </div>
-                <div class="col-md-9 case_slider">
+                <div class="col-lg-9 col-md-8 case_slider">
                     <div class="slick-slider_3">
                             @foreach($casestudies as $item)
                         <div class="slick_item">
                             <div class="card">
-                                <img src="{{url('assets/images/casestudies/'.$item->image)}}" class="card-img-top" alt="Case Study" title="Case Study">
+                                <img src="{{url('assets/images/casestudies/'.$item->image)}}" class="card-img-top img-object-cover" alt="Case Study" title="Case Study">
                                 <div class="card-body">
-                                    <h5 class="card-title ">{{$item->title}} </h5>
+                                    <h5 class="card-title overflowtext">{{$item->title}} </h5>
                                     @if($item->knowmore_button==1)
                                     <a href="{{route('web_casestudy_single',$item->seo_url)}}" class="d-flex">LEARN MORE <img src="{{url('assets/images/arrow.svg')}}" width="15"> </a>
                                     @endif
@@ -192,6 +192,31 @@
                 dots: false,
                 prevArrow:false,
                 nextArrow:'<button class="btn btn-light NextArrow"><img src="{{url('assets/images/right_arrow_gray.svg')}}"></button>',
+                responsive: [
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 1008,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 767,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+
+            ],
+
             });
             $('.slick-slider_4').slick({
                 autoplay:true,
@@ -203,6 +228,37 @@
                 dots: false,
                 prevArrow:false,
                 nextArrow:false,
+                responsive: [
+                    {
+                        breakpoint: 1200,
+                        settings: {
+                            slidesToShow: 5,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 1008,
+                        settings: {
+                            slidesToShow: 4,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 800,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1
+                        }
+                    }
+
+                ],
             });
         });
     </script>

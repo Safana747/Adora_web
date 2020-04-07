@@ -85,32 +85,32 @@
                             <span>1</span>
                             <p>REGISTER</p>
                             <small>
-                                Register our partner program <br>by filling the application form
+                                Fill the Partner Application Form
                             </small>
                         </div>
                         <div class="col-md-4 text-center">
                             <span>2</span>
                             <p>Install App</p>
                             <small>
-                                It is a long established fact<br> that a reader will be <a href="" target="_blank">Link</a>
+                                Install MRMS App and Activate by Registered Mobile Number and OTP <a href="https://play.google.com/store/apps/details?id=com.adora.mrm&hl=en_IN" target="_blank">Link</a>
                             </small>
                         </div>
                         <div class="col-md-4 text-center">
                             <span>3</span>
                             <p>Get Start</p>
                             <small>
-                                It is a long established fact<br> that a reader will be distracted
+                                Our representative will contact you shortly !
+                                can’t wait : Call/whatsapp +919656584947
+
                             </small>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-5 partner_contact">
                     <p>
-                        It is a long established fact that a reader
-                        will be distracted by the readable content
-                        of a page when  content
-                        <a href="tel:"> Call 0483 2712200</a> or
-                        <a href="mailto:info@adoragroup.in"> info@adoragroup.in</a>
+                        Want to know More About Our Business Partnership Program
+                        Call /whatsapp <a href="https://api.whatsapp.com/send?phone=919656584947&text=&source=&data=" target="_blank">09656584947</a> / <a href="tel:04832712200">04832712200</a> or send a mail to
+                        <a href="mailto:all@adoragroup.in">all@adoragroup.in</a>
                     </p>
                     <img src="{{url('assets/images/business_partner.png')}}" class="img-fluid">
                 </div>
