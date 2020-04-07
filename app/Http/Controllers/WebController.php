@@ -14,6 +14,8 @@ class WebController extends Controller
         $data['ongoingprojects'] = DB::table('ongoingprojects')->orderBy('id','desc')->get();
         $data['casestudies'] = DB::table('casestudies')->orderBy('id','desc')->get();
         $data['clients'] = DB::table('clients')->orderBy('id','desc')->get();
+        $data['social_responsabilities'] = DB::table('social_responsabilities')->orderBy('id', 'desc')->get();
+
 
 
         return view('site.index',$data);
@@ -24,6 +26,8 @@ class WebController extends Controller
         $data['group_of_companies'] = DB::table('group_of_companies')->orderBy('id','desc')->get();
         $data['social_responsabilities'] = DB::table('social_responsabilities')->orderBy('id','desc')->get();
         $data['awards'] = DB::table('awards')->orderBy('id','desc')->get();
+        $data['social_responsabilities'] = DB::table('social_responsabilities')->orderBy('id', 'desc')->get();
+
 
 
         return view('site.company',$data);
