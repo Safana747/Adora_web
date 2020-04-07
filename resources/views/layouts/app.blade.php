@@ -62,8 +62,12 @@
                             <a class="dropdown-item" href="{{route('web_company')}}#vision_mission">Vision & Mission</a>
                             <a class="dropdown-item" href="{{route('web_company')}}#team">Team</a>
                             <a class="dropdown-item" href="{{route('web_company')}}#group_companies">Group Companies</a>
+                            @if(count($social_responsabilities)>0)
                             <a class="dropdown-item" href="{{route('web_company')}}#social_responsibilities">Social Responsibilities</a>
+                            @endif
+                            @if(count($awards)>0)
                             <a class="dropdown-item" href="{{route('web_company')}}#awards_achivements">Awards & Achivements</a>
+                            @endif
                             <a class="dropdown-item" href="{{route('web_contact')}}">Contact</a>
                         </div>
                     </li>
@@ -146,8 +150,12 @@
                         <li><a href="{{route('web_company')}}#vision_mission">Vision & Mission</a></li>
                         <li><a href="{{route('web_company')}}#team">Team</a></li>
                         <li><a href="{{route('web_company')}}#group_companies">Group Companies</a></li>
+                        @if(count($social_responsabilities)>0)
                         <li><a href="{{route('web_company')}}#social_responsibilities">Social Responsibilities</a></li>
+                        @endif
+                        @if(count($awards)>0)
                         <li><a href="{{route('web_company')}}#awards_achivements">Awards & Achivements</a></li>
+                        @endif
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-6 footer_navigation">
