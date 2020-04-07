@@ -135,7 +135,7 @@
 
 
                             <div class="form-group">
-                                <textarea class="form-control" rows="5" id="applyingfor" name="applyingfor" placeholder="Applying For"></textarea>
+                                <textarea class="form-control" rows="5" id="applyingfor" name="applyingfor" placeholder="Description"></textarea>
                             </div>
                             <div class="form-group">
                                 <div class="custom-file">

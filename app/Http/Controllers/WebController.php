@@ -99,7 +99,7 @@ class WebController extends Controller
 
 
         DB::table('job_vacancy_form')->insert($data);
-            return redirect('job_vacancies')->with('view_msg', '<div class="alert alert-success"><i class="fa fa-check" aria-hidden="true"></i> Your message has been sent successfully</div>');
+            return redirect('job_vacancies')->with('view_msg', '<div class="alert alert-success"><i class="fa fa-check" aria-hidden="true"></i>Thank you! Your Application Submit successfully</div>');
 
     }
 
@@ -118,7 +118,7 @@ class WebController extends Controller
 
 
         DB::table('become_partner_form')->insert($data);
-        return redirect('become_partner')->with('view_msg', '<div class="alert alert-success"><i class="fa fa-check" aria-hidden="true"></i> Your message has been sent successfully</div>');
+        return redirect('become_partner')->with('view_msg', '<div class="alert alert-success"><i class="fa fa-check" aria-hidden="true"></i> Thank you for your interest! Our representative will contact you shortly!</div>');
     }
     public function home_single($seo_url=null)
     {

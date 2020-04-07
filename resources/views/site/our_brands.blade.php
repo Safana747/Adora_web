@@ -20,7 +20,7 @@
             <div class="row">
                 @if($brands)
                     @foreach($brands as $item)
-                     <div class="col-md-6 brand_s">
+                     <div class="col-lg-6 brand_s">
                     <div class="media">
                         <img src="{{url('assets/images/brands/'.$item->image)}}" class="mr-3 " alt="" title="">
                         <div class="media-body">

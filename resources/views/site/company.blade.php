@@ -141,7 +141,7 @@
                                 </div>
                             </div>
                             <div class="img_overlay">
-                                <img src="{{url('assets/images/social_responsibilities/'.$item->image)}}" title="Social Responcibilities">
+                                <img src="{{url('assets/images/social_responsibilities/'.$item->image)}}" class="img-object-cover img-fluid" title="Social Responcibilities">
                             </div>
                         </div>
                     </div>
@@ -160,14 +160,14 @@
                             @foreach($awards as $item)
                             <div class="slick_item">
                             <div class="card">
-                                <img src="{{url('assets/images/awards_achievements/'.$item->image)}}" class="card-img-top" alt="Case Study" title="Case Study">
+                                <img src="{{url('assets/images/awards_achievements/'.$item->image)}}" class="card-img-top img-object-cover" alt="Awards & Achivements" title="Awards & Achivements">
                                 <div class="card-body">
                                     <div class="award_icon">
-                                        <img src="{{url('assets/images/award.svg')}}" class="img-fluid">
+                                        <img src="{{url('assets/images/award.svg')}}" class="img-fluid" alt="Awards & Achivements" title="Awards & Achivements">
                                     </div>
-                                    <h5 class="card-title"> {{$item->title}} </h5>
+                                    <h5 class="card-title overflowtext"> {{$item->title}} </h5>
                                     @if($item->knowmore_button==1)
-                                    <a href="{{route('web_awards_single',$item->seo_url)}}" class="d-flex">LEARN MORE <img src="{{url('assets/images/arrow.svg')}}" width="15"> </a>
+                                    <a href="{{route('web_awards_single',$item->seo_url)}}" class="d-flex">LEARN MORE <img src="{{url('assets/images/arrow.svg')}}" width="15" alt="Learn More" title="Learn More"> </a>
                                     @endif
                                 </div>
                             </div>
@@ -216,6 +216,36 @@
             dots: false,
             prevArrow:false,
             nextArrow:'<button class="btn btn-light NextArrow"><img src="{{url('assets/images/right_arrow_gray.svg')}}"></button>',
+            responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 1008,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    nextArrow:false,
+                    dots:true
+                }
+            },
+            {
+                breakpoint: 700,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    nextArrow:false,
+                    dots:true
+                }
+            }
+
+
+
+        ]
         });
 
         $('.slick-slider').slick({
@@ -231,21 +261,29 @@
                 {
                     breakpoint: 1200,
                     settings: {
-                        slidesToShow: 5,
+                        slidesToShow: 4,
                         slidesToScroll: 1
                     }
                 },
                 {
                     breakpoint: 1008,
                     settings: {
-                        slidesToShow: 4,
+                        slidesToShow: 3,
                         slidesToScroll: 1
                     }
                 },
                 {
-                    breakpoint: 800,
-                    settings: "unslick"
+                    breakpoint: 700,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        nextArrow:false,
+                        prevArrow:false,
+                        dots:true,
+                    }
                 }
+
+
 
             ]
         });
