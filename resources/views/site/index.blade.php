@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-@section('title', 'Adora Group')
+@section('title', 'Adora Group | Business Cunsulting, IT & Automation, Contracting, Trading, Marketing & Operations')
 @push('styles')
     <link rel="stylesheet" href="{{url('assets/css/slick.css')}}">
     <style>

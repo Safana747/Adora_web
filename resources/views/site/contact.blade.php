@@ -3,7 +3,7 @@
 @section('title', 'Adora Group | Contact')
 @push('styles')
 @endpush
-<div class="wrapper" style="max-width: 1920px;margin: auto;">
+<div class="wrapper" style="margin: auto;">
     <section class="inner_page">
         <div class="container text-center">
             <h1>CONTACT</h1>
@@ -22,7 +22,7 @@
                 We’d love to hear from you.
             </h2>
             <div class="row">
-                <div class="col-md-3 main_address">
+                <div class="col-lg-3 col-md-6 main_address">
                     <ul class="list-unstyled con_social">
                         <li class="">
                             <a href="https://www.facebook.com/adoragroup.in" target="_blank">
@@ -49,7 +49,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-6">
                     <div class="con_address">
                         <p>
                             <small>Project office:</small><br>
@@ -60,7 +60,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-6">
                     <div class="con_address">
                         <span class="country">Bahrain</span>
                         <p>
@@ -76,7 +76,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-6">
                     <div class="con_address">
                         <span class="country">Oman</span>
                         <p>

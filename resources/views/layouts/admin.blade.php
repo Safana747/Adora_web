@@ -1,15 +1,15 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Admin</title>
+    <title>Adora Group | Admin</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <meta name="description" content="Admin Template">
+    <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="{{url('admin/')}}favicon.ico" type="image/x-icon">
+    <link rel="icon" href="{{url('assets/admin/images')}}/favicon.ico" type="image/x-icon">
     <!-- VENDOR CSS -->
     <link rel="stylesheet" href="{{url('assets/admin/vendor/bootstrap/css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{url('assets/admin/vendor/animate-css/animate.min.css')}}">
@@ -18,6 +18,38 @@
     <link rel="stylesheet" href="{{url('assets/admin/css/main.css')}}">
     <link rel="stylesheet" href="{{url('assets/admin/css/color_skins.css')}}">
     <script src="{{url('assets/admin/bundles/libscripts.bundle.js')}}"></script>
+    <script>
+        $(document).ready(function() {
+            $('.summernote').summernote({
+                fontSize:'18px',
+                height: 200,                 // set editor height
+                minHeight: null,             // set minimum height of editor
+                maxHeight: null,             // set maximum height of editor
+                focus: false,
+                toolbar: [
+                    ['style', ['style']],
+                    ['font', ['bold', 'underline', 'clear']],
+                    ['color', ['color']],
+                    ['para', ['ul', 'ol', 'paragraph']],
+                    ['table', ['table']],
+                    ['insert', ['link']],
+                    ['view', ['fullscreen']]
+                ],
+                callbacks: {
+                    onPaste: function (e) {
+                        var bufferText = ((e.originalEvent || e).clipboardData || window.clipboardData).getData('Text');
+
+                        e.preventDefault();
+
+                        // Firefox fix
+                        setTimeout(function () {
+                            document.execCommand('insertText', false, bufferText);
+                        }, 10);
+                    }
+                }
+            });
+        });
+    </script>
 
 </head>
 <body class="theme-blue">
@@ -35,7 +67,7 @@
             <div class="navbar-brand">
                 <a href="{{url('')}}">
                     <img src="{{url('assets/admin/images/logo-icon.svg')}}" alt="Mplify Logo" class="img-responsive logo">
-                    <span class="name">My Admin</span>
+                    <span class="name">Adora</span>
                 </a>
             </div>
 
@@ -106,7 +138,7 @@
                         <a href=""><i class="icon-home"></i><span>Home</span></a>
 
                     <ul {{isset($menu)?($menu==1?'aria-expanded="true" class="collapse in"':'aria-expanded="false" class="collapse" style="height: 0px;"'):''}}>
-                        <li {{isset($sub_menu)?($sub_menu==11?'class=active':''):''}}><a href="{{route('admin.homeslider')}}">Home</a></li>
+                        <li {{isset($sub_menu)?($sub_menu==11?'class=active':''):''}}><a href="{{route('admin.homeslider')}}">Slider</a></li>
                         <li {{isset($sub_menu)?($sub_menu==12?'class=active':''):''}}><a href="{{route('admin.newthoughts')}}">New Thoughts</a></li>
                         <li {{isset($sub_menu)?($sub_menu==13?'class=active':''):''}}><a href="{{route('admin.ongoingprojects')}}">Ongoing Projects</a></li>
                         <li {{isset($sub_menu)?($sub_menu==14?'class=active':''):''}}><a href="{{route('admin.casestudies')}}">Case Studies</a></li>

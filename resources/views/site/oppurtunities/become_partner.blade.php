@@ -63,7 +63,7 @@
 </script>
 
 
-<div class="wrapper" style="max-width: 1920px;margin: auto;">
+<div class="wrapper" style="margin: auto;">
     <section class="inner_page">
         <div class="container text-center">
             <h1>Become a Partner</h1>

@@ -3,19 +3,7 @@
 
     <link rel="stylesheet" href="{{url('assets/admin/vendor/summernote/dist/summernote.css')}}">
     <script src="{{url('assets/admin/vendor/summernote/dist/summernote.js')}}"></script>
-    <script>
-        $(document).ready(function() {
 
-
-            $('.summernote').summernote({
-                fontSize:'18px',
-                height: 200,                 // set editor height
-                minHeight: null,             // set minimum height of editor
-                maxHeight: null,             // set maximum height of editor
-                focus: false,
-            });
-        });
-    </script>
 
     <script>
         function isNumberKey(evt){

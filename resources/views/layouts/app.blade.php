@@ -3,13 +3,13 @@
 <head>
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta charset="utf-8">
-    <meta property="og:image" content="" />
-    <meta property="og:title" content="" />
-    <meta property="og:description" content="" />
-    <meta property="og:url" content="" />
+    <meta property="og:image" content="{{url('assets/images/favicon/apple-touch-icon.png')}}" />
+    <meta property="og:title" content="Adora Group" />
+    <meta property="og:description" content="Adora was founded on 12th December 2011 at Kamala Building, Annie Hall Road Near Railway station Calicut by three colleagues of Hewlet Peckard(HP) service division, Mohammed Shad, Harish PA and Abdul Jaleel.The name Adora means gift and was suggested by HP service division senior engineer Mr.Baburaj which is derived from the word 'adorable’." />
+    <meta property="og:url" content="http://adoragroup.in/" />
     <meta property="og:type" content="website" />
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="description" content="Adora was founded on 12th December 2011 at Kamala Building, Annie Hall Road Near Railway station Calicut by three colleagues of Hewlet Peckard(HP) service division, Mohammed Shad, Harish PA and Abdul Jaleel.The name Adora means gift and was suggested by HP service division senior engineer Mr.Baburaj which is derived from the word 'adorable’.">
+    <meta name="keywords" content="Adora Group, Adora, Business Cunsulting, IT & Automation, Contracting, Trading, Marketing & Operations">
     <link rel="apple-touch-icon" href="{{url('assets/images/favicon/apple-touch-icon.png')}}">
     <link rel="icon" href="{{url('assets/images/favicon/favicon.ico')}}">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">

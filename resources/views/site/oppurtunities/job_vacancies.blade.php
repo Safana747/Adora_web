@@ -66,7 +66,7 @@
     });
 
 </script>
-<div class="wrapper" style="max-width: 1920px;margin: auto;">
+<div class="wrapper" style="margin: auto;">
     <section class="inner_page">
         <div class="container text-center">
             <h1>Job Vacancies</h1>
@@ -81,7 +81,7 @@
     <section class="jobs">
         <div class="container">
             <div class="row">
-                <div class="col-md-7 job_con">
+                <div class="col-lg-7 job_con">
                     <h4>Our people are our greatest asset</h4>
                     <h6 class="font-weight-bold">Eligibility Criteria</h6>
                     <ul class="">
@@ -103,7 +103,7 @@
 
                     </p>
                 </div>
-                <div class="col-md-5 job_form" id="applynow">
+                <div class="col-lg-5 job_form" id="applynow">
                     <div class="col-md-12">
                         <h4>LOOKING FOR OPPORTUNITIES</h4>
                         <div id="msg">

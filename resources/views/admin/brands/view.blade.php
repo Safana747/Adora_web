@@ -45,7 +45,7 @@
                                     <th>#</th>
                                     <th>Description</th>
                                     <th>Image</th>
-                                    <th>Action</th>
+                                    <th width="100">Action</th>
                                 </tr>
                                 </thead>
                                 <tbody>
@@ -70,14 +70,14 @@
                                         <th scope="row">{{$index + $result->firstItem()}}</th>
                                         <td>{{$item->description}}</td>
                                         <td>
-                                            <img src="{{url('assets/images/brands/'.$item->image)}}" width="100" height="100">
+                                            <img src="{{url('assets/images/brands/'.$item->image)}}" style="max-height: 100%;max-width: 100%;width: 100%;height: 100px;object-fit: contain">
                                         </td>
 
                                         <td>
 
                                             <a href="{{route('admin.brands_edit',$item->id)}}"
-                                               class="btn btn-info" title="Edit"><i class="fa fa-edit"></i></a>
-                                            <a onclick="del_itm('{{route('admin.brands_delete',$item->id)}}')" href='javascript:void(0)' class='btn btn-danger'
+                                               class="btn btn-info btn-sm" title="Edit"><i class="fa fa-edit"></i></a>
+                                            <a onclick="del_itm('{{route('admin.brands_delete',$item->id)}}')" href='javascript:void(0)' class='btn btn-danger btn-sm'
                                                data-toggle='modal' data-target='#del_itm_Modal' data-keyboard='false'
                                                data-backdrop='static'><i class='fa fa-trash-o'></i></a>
                                         </td>

@@ -3,7 +3,7 @@
 @section('title', 'Adora Group | Consulting')
 @push('styles')
 @endpush
-<div class="wrapper" style="max-width: 1920px;margin: auto;">
+<div class="wrapper" style="margin: auto;">
     <section class="inner_page">
         <div class="container text-center">
             <h1>Consulting</h1>

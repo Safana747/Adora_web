@@ -48,7 +48,7 @@
                                     <th>Job Type</th>
                                     <th>Location</th>
                                     <th>Date</th>
-                                    <th>Action</th>
+                                    <th width="100">Action</th>
                                 </tr>
                                 </thead>
                                 <tbody>
@@ -85,8 +85,8 @@
                                         <td>
 
                                             <a href="{{route('admin.jobvacancies_edit',$item->id)}}"
-                                               class="btn btn-info" title="Edit"><i class="fa fa-edit"></i></a>
-                                            <a onclick="del_itm('{{route('admin.jobvacancies_delete',$item->id)}}')" href='javascript:void(0)' class='btn btn-danger'
+                                               class="btn btn-info btn-sm" title="Edit"><i class="fa fa-edit"></i></a>
+                                            <a onclick="del_itm('{{route('admin.jobvacancies_delete',$item->id)}}')" href='javascript:void(0)' class='btn btn-danger btn-sm'
                                                data-toggle='modal' data-target='#del_itm_Modal' data-keyboard='false'
                                                data-backdrop='static'><i class='fa fa-trash-o'></i></a>
                                         </td>

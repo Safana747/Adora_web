@@ -23,6 +23,7 @@
 
 <div id="main-content">
     <div class="container-fluid">
+        <h4 class="text-center p-5">Welcome back to adora admin</h4>
     </div>
 </div>
 

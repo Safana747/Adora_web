@@ -40,13 +40,13 @@
                                 <thead>
                                 <tr>
                                     <th>#</th>
-                                    <th>Name</th>
+                                    <td width="200">Title</td>
                                     <th>Email</th>
                                     <th>Phone</th>
                                     <th>Job Title</th>
                                     <th>Description</th>
                                     <th>Resume</th>
-                                    <th>Action</th>
+                                    <th width="100">Action</th>
                                 </tr>
                                 </thead>
                                 <tbody>
@@ -77,7 +77,7 @@
                                         <td>{{$item->applyingfor}}</td>
                                         <td><a target="_blank" href="{{url('assets/resume/'.$item->resume)}}">{{$item->filename}}</a></td>
                                         <td>
-                                            <a onclick="del_itm('{{route('admin.job_applications_delete',$item->id)}}')" href='javascript:void(0)' class='btn btn-danger'
+                                            <a onclick="del_itm('{{route('admin.job_applications_delete',$item->id)}}')" href='javascript:void(0)' class='btn btn-danger btn-sm'
                                                data-toggle='modal' data-target='#del_itm_Modal' data-keyboard='false'
                                                data-backdrop='static'><i class='fa fa-trash-o'></i></a>
                                         </td>

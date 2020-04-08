@@ -8,7 +8,7 @@
             return !(charCode > 31 && (charCode < 48 || charCode > 57));
         }
     </script>
-    <div id="main-content">
+    <div id="main-content" class="file_manager">
         <div class="container-fluid">
             <div class="block-header">
                 <div class="row">
@@ -44,11 +44,11 @@
                                 <thead>
                                 <tr>
                                     <th>#</th>
-                                    <th>Name</th>
+                                    <td width="200">Title</td>
                                     <th>Description</th>
                                     <th>Image</th>
-                                    <td>Multiple Images</td>
-                                    <th>Action</th>
+                                    <td>Sub Images</td>
+                                    <th width="100">Action</th>
                                 </tr>
                                 </thead>
                                 <tbody>
@@ -83,7 +83,7 @@
 
                                             <form method="post" action="{{route('admin.newthoughts_image_upload',$item->id)}}" enctype="multipart/form-data">
                                                 @csrf
-                                                <div class="input-group col-md-6">
+                                                <div class="input-group col-md-12">
                                                     <div class="custom-file">
                                                         <input type="file" name="file" class="form-control">
                                                     </div>
@@ -100,25 +100,33 @@
                                                 ->where('slider_id',$item->id)
                                                 ->get();
                                             @endphp
-
+                                            <div class="row mt-3">
                                             @foreach($m_image as $multi_image)
-                                                <img width="100" height="100" src="{{url('assets/images/newthoughts/'.$multi_image->image)}}" alt="img" class="img-fluid">
-                                                <a onclick="return confirm('Are you sure you want to delete this item?');" href="{{route('admin.newthoughts_image_delete',$multi_image->id)}}" class="btn btn-icon btn-danger">
-                                                    <i class="fa fa-trash"></i>
-                                                </a>
+
+                                                <div class="col-lg-3">
+                                                    <div class="card">
+                                                        <div class="file">
+                                                            <div class="hover">
+                                                                <a onclick="return confirm('Are you sure you want to delete this item?');" href="{{route('admin.newthoughts_image_delete',$multi_image->id)}}" class="btn btn-icon btn-danger">
+                                                                    <i class="fa fa-trash"></i>
+                                                                </a>
+                                                            </div>
+                                                            <div class="image">
+                                                                <img src="{{url('assets/images/newthoughts/'.$multi_image->image)}}"  style="max-height: 100%;max-width: 100%;width: 100%;height: 100px;object-fit: cover" alt="img" class="img-fluid">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
 
                                             @endforeach
+                                            </div>
 
                                         </td>
-
-
-
-
                                         <td>
 
                                             <a href="{{route('admin.newthoughts_edit',$item->id)}}"
-                                               class="btn btn-info" title="Edit"><i class="fa fa-edit"></i></a>
-                                            <a onclick="del_itm('{{route('admin.newthoughts_delete',$item->id)}}')" href='javascript:void(0)' class='btn btn-danger'
+                                               class="btn btn-info btn-sm" title="Edit"><i class="fa fa-edit"></i></a>
+                                            <a onclick="del_itm('{{route('admin.newthoughts_delete',$item->id)}}')" href='javascript:void(0)' class='btn btn-danger btn-sm'
                                                data-toggle='modal' data-target='#del_itm_Modal' data-keyboard='false'
                                                data-backdrop='static'><i class='fa fa-trash-o'></i></a>
                                         </td>
