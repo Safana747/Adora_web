@@ -4,6 +4,7 @@ namespace App\Http\Controllers\admin;
 use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
+use Auth;
 use DB;
 
 class DashboardController extends Controller
@@ -17,6 +18,6 @@ class DashboardController extends Controller
     public function index()
     {
         $data['menu'] = 0;
-        return view('admin.dashbord.view',$data);
+        return view('admin.Dashbord.view',$data);
     }
 }

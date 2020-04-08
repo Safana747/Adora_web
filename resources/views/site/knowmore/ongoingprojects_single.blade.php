@@ -11,7 +11,6 @@
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="{{route('web_home')}}">Home</a></li>
-                    <li class="breadcrumb-item"><a href="{{route('web_company')}}">Company</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Ongoing Projects</li>
                 </ol>
             </nav>
