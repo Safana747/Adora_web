@@ -24,6 +24,7 @@
                     <div>
                         <h2>{{$landing_first->title}}</h2>
                         <p>{{$landing_first->description}}</p>
+                        <a href="" target="_blank" class="btn btn-orange">Full Site View</a>
                     </div>
                 </div>
                 <div class="col-md-6">
