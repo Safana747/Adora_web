@@ -102,24 +102,28 @@
                                         <option value="0" selected>Deactivate</option>
                                     </select>
                                 </div>
+                                <div class="form-group">
+                                    <label>External Button Name</label>
+                                    <input type="text" maxlength="150" class="form-control" id="button_name" name="button_name" value="">
+                                </div>
+
+                                <div class="form-group">
+                                    <label>External Button Link</label>
+                                    <input type="text" maxlength="300" class="form-control" id="button_link" name="button_link" value="">
+                                </div>
 
 
 
                                 <table class="table table-bordered">
                                     <thead>
                                     <tr>
-
                                         <th>
-
                                             <input type="file" name="file" class="filestyle file" data-input="false" id="filestyle-1" tabindex="-1" style="position: absolute; clip: rect(0px 0px 0px 0px);" onchange="document.getElementById('blah1').src = window.URL.createObjectURL(this.files[0])">
                                             <div class="bootstrap-filestyle input-group">
                                     <span class="group-span-filestyle" tabindex="0">
                                     <label for="filestyle-1" class="btn btn-default "><span class="icon-span-filestyle glyphicon glyphicon-folder-open"></span>
                                     <span class="buttonText">&nbsp;Select Photo</span></label></span></div>
-
-
                                         </th>
-
                                     </tr>
                                     </thead>
                                     <tbody>
@@ -139,12 +143,7 @@
                 </div>
 
                 <div class="col-md-2"></div>
-
-
-
             </div>
         </div>
-
     </div>
-
 @endsection

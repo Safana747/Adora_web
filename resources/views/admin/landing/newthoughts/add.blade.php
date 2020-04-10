@@ -61,20 +61,11 @@
 
                     </div>
 
-
-
-
-
                 </div>
             </div>
             <hr/>
 
-
-
             <div class="row clearfix">
-
-
-
 
                 <div class="col-md-2"></div>
 
@@ -107,6 +98,15 @@
                                         <option value="1" >Active </option>
                                         <option value="0" selected>Deactivate</option>
                                     </select>
+                                </div>
+                                <div class="form-group">
+                                    <label>External Button Name</label>
+                                    <input type="text" maxlength="150" class="form-control" id="button_name" name="button_name" value="">
+                                </div>
+
+                                <div class="form-group">
+                                    <label>External Button Link</label>
+                                    <input type="text" maxlength="150" class="form-control" id="button_link" name="button_link" value="">
                                 </div>
 
 

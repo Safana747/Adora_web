@@ -94,6 +94,15 @@
                                         <option value="0"  {{$result->knowmore_button==0?'selected':''}}>Deactivate</option>
                                     </select>
                                 </div>
+                                <div class="form-group">
+                                    <label>External Button Name</label>
+                                    <input type="text" maxlength="150" class="form-control" id="button_name" name="button_name" value="{{$result->button_name}}">
+                                </div>
+
+                                <div class="form-group">
+                                    <label>External Button Link</label>
+                                    <input type="text" maxlength="300" class="form-control" id="button_link" name="button_link" value="{{$result->button_link}}">
+                                </div>
 
 
 

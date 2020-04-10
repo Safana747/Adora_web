@@ -69,6 +69,8 @@ class LandingController extends Controller
                 "summary" =>$request->summary,
                 "image" => $image_name,
                 "knowmore_button" =>$request->knowmore_button,
+                "button_name" =>$request->button_name,
+                "button_link" =>$request->button_link,
                 "created_at" => date("Y-m-d h:i:s")
             );
 
@@ -119,6 +121,8 @@ class LandingController extends Controller
                     "summary" =>$request->summary,
                     "image" => $image_name,
                     "knowmore_button" =>$request->knowmore_button,
+                    "button_name" =>$request->button_name,
+                    "button_link" =>$request->button_link,
                     "updated_at" => date("Y-m-d h:i:s")
                 );
 
@@ -131,6 +135,8 @@ class LandingController extends Controller
                     "description" =>$request->description,
                     "summary" =>$request->summary,
                     "knowmore_button" =>$request->knowmore_button,
+                    "button_name" =>$request->button_name,
+                    "button_link" =>$request->button_link,
                     "updated_at" => date("Y-m-d h:i:s")
                 );
             }

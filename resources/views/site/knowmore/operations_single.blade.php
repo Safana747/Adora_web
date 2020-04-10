@@ -23,6 +23,9 @@
                     <div>
                         <h2>{{$landing_first->title}}</h2>
                         <p>{{$landing_first->description}}</p>
+                        @if(!($landing_first->button_name==null)||!($landing_first->button_name=="")&&!($landing_first->button_link==null)||!($landing_first->button_link==""))
+                            <a href="{{$landing_first->button_link}}" target="_blank" class="btn btn-orange">{{$landing_first->button_name}}</a>
+                        @endif
                     </div>
                 </div>
                 <div class="col-md-6">

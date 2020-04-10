@@ -58,27 +58,17 @@
                         <h2><?=isset($pageTitle)?$pageTitle:''?></h2>
                         <hr/>
                         <a href="{{route('admin.trading')}}" class="btn btn-dark  btn-sm"><i class="icon-action-undo"></i> Back</a>
-
                     </div>
-
-
                 </div>
             </div>
             <hr/>
 
-
-
             <div class="row clearfix">
-
                 <div class="col-md-2"></div>
-
                 <div class="col-md-8">
                     <div class="card" style="border-color:#2b2e33">
-
                         <div class="body">
-
                             <div id="msg"></div>
-
 
                             <form id="basic-form" method="post" action="{{route('admin.trading_update',$result->id)}}" enctype="multipart/form-data">
                                 @csrf
@@ -103,7 +93,15 @@
                                         <option value="0"  {{$result->knowmore_button==0?'selected':''}}>Deactivate</option>
                                     </select>
                                 </div>
+                                <div class="form-group">
+                                    <label>External Button Name</label>
+                                    <input type="text" maxlength="150" class="form-control" id="button_name" name="button_name" value="{{$result->button_name}}">
+                                </div>
 
+                                <div class="form-group">
+                                    <label>External Button Link</label>
+                                    <input type="text" maxlength="300" class="form-control" id="button_link" name="button_link" value="{{$result->button_link}}">
+                                </div>
 
 
                                 <table class="table table-bordered">
@@ -135,12 +133,7 @@
                 </div>
 
                 <div class="col-md-2"></div>
-
-
             </div>
-
-
         </div>
-
     </div>
 @endsection
