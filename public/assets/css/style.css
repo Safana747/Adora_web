@@ -121,7 +121,7 @@ a { text-decoration: none !important; }
 .case_study .slick-slider_3 .NextArrow{padding: 0;width: 60px;height: 60px;line-height: 0;text-align: center;border-radius: 50%;position: absolute;z-index: 1;top: 50%;}
 .case_study .slick-slider_3 .NextArrow{right: 0;}
 .case_study .case_slider .slick-slider_3 .card-body{padding: 30px;}
-.case_study .case_slider .slick-slider_3 .card h5{font-size: 20px;padding-bottom: 20px;-webkit-line-clamp: 3;line-height: 1.5rem;max-height: 4.5rem;}
+.case_study .case_slider .slick-slider_3 .card h5{font-size: 20px;padding-bottom: 20px;-webkit-line-clamp: 3;line-height: 1.5rem;max-height: 4.5rem;min-height: 4.5rem;}
 .case_study .case_slider .slick-slider_3 .card a{color: #1B2A55;}
 .case_study .case_slider .slick-slider_3 .card a:hover{color: #C4C4C4;}
 .case_study .case_slider .slick-slider_3 .card a:hover img{margin-left: 10px;}
@@ -130,7 +130,7 @@ a { text-decoration: none !important; }
 /*client_logos*/
 .client_logos{padding:30px 40px; }
 .client_logos .slick-slider_4 .slick_item{text-align: center;}
-.client_logos .slick-slider_4 .slick_item img{border: 1px solid #ddd;padding: 20px;height: 100px;width: 300px; margin: auto;}
+.client_logos .slick-slider_4 .slick_item img{border: 1px solid #ddd;padding: 10px;height: 100px;width: 300px; margin: auto;}
 /*client_logos*/
 /*download*/
 .download{background: url("../images/app_bg.jpg") no-repeat center; background-attachment: fixed;background-size: cover;}
