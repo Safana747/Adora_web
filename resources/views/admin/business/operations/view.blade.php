@@ -23,6 +23,35 @@
                     </div>
                 </div>
             </div>
+            @php
+                $table='operations';
+                $pdf_result = DB::table('business_pdf_files')->where('bus_type', $table)->first();
+            @endphp
+            @if($pdf_result)
+                @if ($pdf_result->pdf_file == null || $pdf_result->pdf_file == '')
+
+                    <form method="post" action="{{route('admin.bus_pdf_upload',$table)}}" enctype="multipart/form-data">
+                        @csrf
+                        <div class="input-group col-md-12">
+                            <div class="custom-file">
+                                <input type="file" name="file" class="form-control">
+                            </div>
+                            <div class="input-group-append">
+                                <input type="submit" value="upload" class="btn btn-success">
+                            </div>
+                        </div>
+                    </form>
+                @endif
+            @endif
+            @if($pdf_result)
+                @if (!($pdf_result->pdf_file == null || $pdf_result->pdf_file == ''))
+
+                    <a target="_blank" class="btn btn-primary" href="{{url("assets/pdf_files/".$pdf_result->pdf_file)}}"><i class="fa fa-file"></i> {{$pdf_result->filename}}</a>
+                    <a class="btn btn-danger" href="{{route('admin.bus_pdf_delete',$pdf_result->id)}}" onclick="return confirm('Are you sure?')"><i class="fa fa-trash"></i></a>
+                @endif
+
+            @endif
+
             <div class="row clearfix">
 
 

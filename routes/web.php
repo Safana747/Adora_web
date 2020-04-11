@@ -159,6 +159,9 @@ Route::group(['prefix'=>'admin','as'=>'admin.'], function(){
     Route::post('/brands/edit/{id}', 'admin\BrandsController@update')->name('brands_update');
     Route::delete('/brands/delete/{id}', 'admin\BrandsController@delete')->name('brands_delete');
 
+    Route::post('/business/business_pdf_files/bus_pdf_upload/{table_name}', 'admin\ItAutomationController@bus_pdf_upload')->name('bus_pdf_upload');
+    Route::get('/business/business_pdf_files/bus_pdf_delete/{id}', 'admin\ItAutomationController@bus_pdf_delete')->name('bus_pdf_delete');
+
     //it&automation
     Route::get('/business/it_automation', 'admin\ItAutomationController@index')->name('it_automation');
     Route::get('/business/it_automation/create', 'admin\ItAutomationController@add')->name('it_automation_add');

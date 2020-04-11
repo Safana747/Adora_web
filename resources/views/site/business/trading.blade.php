@@ -39,9 +39,17 @@
                     @endforeach
                 @endif
             </div>
-            <div class="col-xl-12 text-center pt-5">
-                <a href="" class="btn btn-orange">DOWNLOAD BROCHURE</a>
-            </div>
+            @php
+                $table='trading';
+                $pdf_brochure = DB::table('business_pdf_files')->where('bus_type', $table)->first();
+            @endphp
+            @if($pdf_brochure)
+                @if (!($pdf_brochure->pdf_file == null || $pdf_brochure->pdf_file == ''))
+                    <div class="col-xl-12 text-center pt-5">
+                        <a target="_blank" href="{{url("assets/pdf_files/".$pdf_brochure->pdf_file)}}" class="btn btn-orange">DOWNLOAD BROCHURE</a>
+                    </div>
+                @endif
+            @endif
         </div>
     </section>
 </div>
