@@ -40,6 +40,9 @@
                 @endif
 
             </div>
+            <div class="col-xl-12 text-center pt-5">
+                <a href="" class="btn btn-orange">DOWNLOAD BROCHURE</a>
+            </div>
         </div>
     </section>
 </div>

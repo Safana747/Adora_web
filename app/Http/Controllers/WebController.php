@@ -44,27 +44,27 @@ class WebController extends Controller
     //business
     public function it_automation()
     {
-        $data['it_automation'] = DB::table('it_automation')->orderBy('id','desc')->get();
+        $data['it_automation'] = DB::table('it_automation')->orderBy('id','asc')->get();
         return view('site.business.it_automation',$data);
     }
     public function consulting()
     {
-        $data['consulting'] = DB::table('consulting')->orderBy('id','desc')->get();
+        $data['consulting'] = DB::table('consulting')->orderBy('id','asc')->get();
         return view('site.business.consulting',$data);
     }
     public function contracting()
     {
-        $data['contracting'] = DB::table('contracting')->orderBy('id','desc')->get();
+        $data['contracting'] = DB::table('contracting')->orderBy('id','asc')->get();
         return view('site.business.contracting',$data);
     }
     public function trading()
     {
-        $data['trading'] = DB::table('trading')->orderBy('id','desc')->get();
+        $data['trading'] = DB::table('trading')->orderBy('id','asc')->get();
         return view('site.business.trading',$data);
     }
     public function marketing_operations()
     {
-        $data['operations'] = DB::table('operations')->orderBy('id','desc')->get();
+        $data['operations'] = DB::table('operations')->orderBy('id','asc')->get();
         return view('site.business.marketing_operations',$data);
     }
 

@@ -107,7 +107,7 @@
     </section>
     <section class="group" id="group_companies">
         <div class="container">
-            <h4>Group of Companies</h4>
+            <h4>Group Companies</h4>
             <div class="row justify-content-center">
                 @if($group_of_companies)
                     @foreach($group_of_companies as $item)

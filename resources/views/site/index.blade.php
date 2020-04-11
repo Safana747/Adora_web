@@ -95,7 +95,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-4 case_heading">
                     <div>
-                        <h3>CASE<br>STUDY</h3>
+                        <h3>CASE<br>STUDIES</h3>
 
                     </div>
                 </div>

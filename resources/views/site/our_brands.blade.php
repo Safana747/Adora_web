@@ -6,11 +6,11 @@
 <div class="wrapper" style="margin: auto;">
     <section class="inner_page">
         <div class="container text-center">
-            <h1>OUR BRANDS</h1>
+            <h1>Own BRANDS</h1>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="{{route('web_home')}}">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Our Brands</li>
+                    <li class="breadcrumb-item active" aria-current="page">Own Brands</li>
                 </ol>
             </nav>
         </div>

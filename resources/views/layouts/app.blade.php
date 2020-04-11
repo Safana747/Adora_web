@@ -92,7 +92,7 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{route('web_our_brands')}}">Brands</a>
+                        <a class="nav-link" href="{{route('web_our_brands')}}">Own Brands</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -187,7 +187,7 @@
                         <li><a href="{{route('web_job_vacancies')}}">Job Vacancies</a></li>
                         <li></li>
                         <li><a href="{{route('web_contact')}}">Contact</a></li>
-                        <li><a href="{{route('web_our_brands')}}">Brands</a></li>
+                        <li><a href="{{route('web_our_brands')}}">Own Brands</a></li>
                     </ul>
                 </div>
                 <div class="col-xl-12 copyright text-center">
