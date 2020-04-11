@@ -135,7 +135,7 @@
                     </li>
 
                     <li {{isset($menu)?($menu==1?'class=active':''):''}}>
-                        <a href=""><i class="icon-home"></i><span>Home</span></a>
+                        <a href="" class="has-arrow"><i class="icon-home"></i><span>Home</span></a>
 
                     <ul {{isset($menu)?($menu==1?'aria-expanded="true" class="collapse in"':'aria-expanded="false" class="collapse" style="height: 0px;"'):''}}>
                         <li {{isset($sub_menu)?($sub_menu==11?'class=active':''):''}}><a href="{{route('admin.homeslider')}}">Slider</a></li>
@@ -148,7 +148,7 @@
                     </li>
 
                     <li {{isset($menu)?($menu==2?'class=active':''):''}}>
-                        <a href=""><i class="fa fa-building-o"></i><span>Company</span></a>
+                        <a href="" class="has-arrow"><i class="fa fa-building-o"></i><span>Company</span></a>
 
                         <ul {{isset($menu)?($menu==2?'aria-expanded="true" class="collapse in"':'aria-expanded="false" class="collapse" style="height: 0px;"'):''}}>
                             <li {{isset($sub_menu)?($sub_menu==21?'class=active':''):''}}><a href="{{route('admin.teams')}}">Teams</a></li>
@@ -164,7 +164,7 @@
                     </li>
 
                     <li {{isset($menu)?($menu==4?'class=active':''):''}}>
-                        <a href=""><i class="fa fa-building-o"></i><span>Business</span></a>
+                        <a href="" class="has-arrow"><i class="fa fa-building-o"></i><span>Business</span></a>
 
                         <ul {{isset($menu)?($menu==4?'aria-expanded="true" class="collapse in"':'aria-expanded="false" class="collapse" style="height: 0px;"'):''}}>
                             <li {{isset($sub_menu)?($sub_menu==41?'class=active':''):''}}><a href="{{route('admin.it_automation')}}">IT & Automation</a></li>
