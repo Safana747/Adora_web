@@ -192,7 +192,7 @@
                 </div>
                 <div class="col-xl-12 copyright text-center">
                     <p class="m-0 font-size-14">
-                        &copy; <?php echo date('Y'); ?> Adora Group. All Rights Reserved.
+                        &copy; <?php echo date('Y'); ?> Adora Group. All Rights Reserved. Powered by <a href="https://highbitz.com/" target="_blank">Highbitz</a>
                     </p>
                 </div>
 
