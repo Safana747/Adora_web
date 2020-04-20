@@ -84,11 +84,11 @@
                             Business
                         </a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="{{route('web_it_automation')}}">IT & Automation</a>
-                            <a class="dropdown-item" href="{{route('web_consulting')}}">Consulting</a>
-                            <a class="dropdown-item" href="{{route('web_contracting')}}">Contracting</a>
-                            <a class="dropdown-item" href="{{route('web_trading')}}">Trading</a>
-                            <a class="dropdown-item" href="{{route('web_marketing_operations')}}">Marketing & Operations</a>
+                            <a class="dropdown-item" href="{{route('web_business')}}">IT & Automation</a>
+                            <a class="dropdown-item" href="{{route('web_business')}}#consulting">Consulting</a>
+                            <a class="dropdown-item" href="{{route('web_business')}}#contracting">Contracting</a>
+                            <a class="dropdown-item" href="{{route('web_business')}}#trading">Trading</a>
+                            <a class="dropdown-item" href="{{route('web_business')}}#marketingoperations">Marketing & Operations</a>
                         </div>
                     </li>
                     <li class="nav-item">
@@ -133,8 +133,7 @@
                     <ul class="list-unstyled">
                         <li>TEL: 0483 2712200</li>
                         <li>General: all@adoragroup.in</li>
-                        <li>Help: care@adoragroup.in</li>
-                        <li>Email: <a href="mailto:sales@adoragroup.in">sales@adoragroup.in</a></li>
+                        <li>Customer Care: <a href="mailto:care@adoragroup.in">care@adoragroup.in</a></li>
                         <li>
                             <ul class="list-inline socialmedia">
                                 <li class="list-inline-item">
@@ -173,11 +172,11 @@
                 <div class="col-lg-3 col-md-6 footer_navigation">
                     <h4>BUSINESS</h4>
                     <ul class="list-unstyled m-0">
-                        <li><a href="{{route('web_it_automation')}}">IT</a></li>
-                        <li><a href="{{route('web_consulting')}}">Consulting</a></li>
-                        <li><a href="{{route('web_contracting')}}">Contracting</a></li>
-                        <li><a href="{{route('web_trading')}}">Trading</a></li>
-                        <li><a href="{{route('web_marketing_operations')}}">Marketing & Operations</a></li>
+                        <li><a href="{{route('web_business')}}">IT & Automation</a></li>
+                        <li><a href="{{route('web_business')}}#consulting">Consulting</a></li>
+                        <li><a href="{{route('web_business')}}#contracting">Contracting</a></li>
+                        <li><a href="{{route('web_business')}}#trading">Trading</a></li>
+                        <li><a href="{{route('web_business')}}#marketingoperations">Marketing & Operations</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-6 footer_navigation">

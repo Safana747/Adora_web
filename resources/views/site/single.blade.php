@@ -1,17 +1,17 @@
 @extends('layouts.app')
 @section('content')
-@section('title', 'Adora Group | Single')
+@section('title', 'Adora Group')
 @push('styles')
 @endpush
 
 <div class="wrapper" style="margin: auto;">
     <section class="inner_page">
         <div class="container text-center">
-            <h1>Home Single</h1>
+            <h1>Adora Group</h1>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="{{route('web_home')}}">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Home Single</li>
+                    <li class="breadcrumb-item active" aria-current="page">Adora Group</li>
                 </ol>
             </nav>
         </div>

@@ -16,6 +16,7 @@ Route::get('/company', 'WebController@company')->name('web_company');
 Route::get('/contact', 'WebController@contact')->name('web_contact');
 Route::get('/our_brands', 'WebController@our_brands')->name('web_our_brands');
 //business
+Route::get('/business', 'WebController@ourbusiness')->name('web_business');
 Route::get('/it_automation', 'WebController@it_automation')->name('web_it_automation');
 Route::get('/consulting', 'WebController@consulting')->name('web_consulting');
 Route::get('/contracting', 'WebController@contracting')->name('web_contracting');
