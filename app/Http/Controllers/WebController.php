@@ -41,13 +41,14 @@ class WebController extends Controller
         $data['brands'] = DB::table('brands')->orderBy('id','desc')->get();
         return view('site.our_brands',$data);
     }
+
     //business
     public function ourbusiness()
     {
-    return view('site.ourbusiness');
+        $data['business'] = DB::table('business')->orderBy('id','asc')->get();
+        return view('site.ourbusiness',$data);
     }
 
-    //business
     public function it_automation()
     {
         $data['it_automation'] = DB::table('it_automation')->orderBy('id','asc')->get();

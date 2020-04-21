@@ -9,20 +9,25 @@
 
         $(document).ready(function(){
             $(".actionBtn").click(function(){
-                tname=$("#tname").val();
-                designation=$("#designation").val();
+                title=$("#title").val();
+                description=$("#description").val();
+                button_name=$("#button_name").val();
                 file=$(".file");
                 var maxSize = '5010';
 
-                if(tname == null || tname== "")
+                if(title == null || title== "")
                 {
-                    $("#msg").html("<div class='alert alert-danger'><span data-dismiss='alert' class='close' onclick=this.parentElement.style.display='none';>&times;</span><i class='fa fa-warning'></i>  Please Enter Name</div>");
+                    $("#msg").html("<div class='alert alert-danger'><span data-dismiss='alert' class='close' onclick=this.parentElement.style.display='none';>&times;</span><i class='fa fa-warning'></i>  Please Enter Title</div>");
                     $("html, body").animate({scrollTop:0},"slow");
                 }
-
-                else if(designation == null || designation== "")
+                else if(description == null || description== "")
                 {
-                    $("#msg").html("<div class='alert alert-danger'><span data-dismiss='alert' class='close' onclick=this.parentElement.style.display='none';>&times;</span><i class='fa fa-warning'></i>  Please Enter Designation</div>");
+                    $("#msg").html("<div class='alert alert-danger'><span data-dismiss='alert' class='close' onclick=this.parentElement.style.display='none';>&times;</span><i class='fa fa-warning'></i>  Please Enter Description</div>");
+                    $("html, body").animate({scrollTop:0},"slow");
+                }
+                else if(button_name == null || button_name== "")
+                {
+                    $("#msg").html("<div class='alert alert-danger'><span data-dismiss='alert' class='close' onclick=this.parentElement.style.display='none';>&times;</span><i class='fa fa-warning'></i>  Please Enter Button Name</div>");
                     $("html, body").animate({scrollTop:0},"slow");
                 }
 
@@ -54,37 +59,52 @@
                     <div class="col-lg-12 col-md-8 col-sm-12">
                         <h2><?=isset($pageTitle)?$pageTitle:''?></h2>
                         <hr/>
-                        <a href="{{route('admin.teams')}}" class="btn btn-dark  btn-sm"><i class="icon-action-undo"></i> Back</a>
+                        <a href="{{route('admin.business')}}" class="btn btn-dark  btn-sm"><i class="icon-action-undo"></i> Back</a>
 
                     </div>
+
                 </div>
             </div>
             <hr/>
+
             <div class="row clearfix">
+
                 <div class="col-md-2"></div>
+
                 <div class="col-md-8">
                     <div class="card" style="border-color:#2b2e33">
+
                         <div class="body">
+
                             <div id="msg"></div>
-                            <form id="basic-form" method="post" action="{{route('admin.teams_update',$result->id)}}" enctype="multipart/form-data">
+
+
+                            <form id="basic-form" method="post" action="{{route('admin.business_update',$result->id)}}" enctype="multipart/form-data">
                                 @csrf
                                 <div class="form-group">
-                                    <label>Name</label>
-                                    <input type="text" maxlength="150" class="form-control" id="tname" name="name" value="{{$result->name}}">
+                                    <label>Title</label>
+                                    <input type="text" maxlength="150" class="form-control" id="title" name="title" value="{{$result->title}}">
                                 </div>
                                 <div class="form-group">
-                                    <label>Designation</label>
-                                    <input type="text" maxlength="150" class="form-control" id="designation" name="designation" value="{{$result->designation}}">
-                                </div>
-                                <div class="form-group">
-                                    <label>Email</label>
-                                    <input type="text" id="email" name="email" class="form-control" value="{{$result->email}}">
-                                </div>
-                                <div class="form-group">
-                                    <label>Phone</label>
-                                    <input onkeypress="return isNumberKey(event);" type="text" id="phone" name="phone" class="form-control" value="{{$result->phone}}">
+                                    <label>Description</label>
+                                    <textarea class="form-control" rows="7" id="description" name="description">{{$result->description}}</textarea>
                                 </div>
 
+                                <div class="form-group">
+                                    <label>Button Name</label>
+                                    <input type="text" maxlength="150" class="form-control" id="button_name" name="button_name" value="{{$result->button_name}}">
+                                </div>
+                                <div class="form-group">
+                                    <label>Select Business Type</label>
+                                    <select id="business" class="custom-select" name="bus_type">
+                                        <option value="it_automation" {{$result->bus_type=='it_automation'?'selected':''}}>It Automation </option>
+                                        <option value="consulting" {{$result->bus_type=='consulting'?'selected':''}}>Consulting </option>
+                                        <option value="contracting" {{$result->bus_type=='contracting'?'selected':''}}>Contracting </option>
+                                        <option value="trading" {{$result->bus_type=='trading'?'selected':''}}>Trading </option>
+                                        <option value="operations" {{$result->bus_type=='operations'?'selected':''}}>Operations </option>
+
+                                    </select>
+                                </div>
 
                                 <table class="table table-bordered">
                                     <thead>
@@ -95,12 +115,14 @@
                                             <span class="group-span-filestyle" tabindex="0">
                                             <label for="filestyle-1" class="btn btn-default "><span class="icon-span-filestyle glyphicon glyphicon-folder-open"></span>
                                             <span class="buttonText">&nbsp;Select Photo</span></label></span></div>
+
                                         </th>
                                     </tr>
                                     </thead>
                                     <tbody>
                                     <tr>
-                                        <td><img id="blah1" width="100" src="{{url('assets/images/teams/'.$result->image)}}" height="100"></td>
+                                        <td><img id="blah1" width="100" src="{{url('assets/images/business/'.$result->image)}}" height="100"></td>
+
                                     </tr>
 
                                     </tbody>
@@ -113,6 +135,7 @@
                 </div>
 
                 <div class="col-md-2"></div>
+
             </div>
         </div>
     </div>

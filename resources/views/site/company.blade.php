@@ -117,7 +117,9 @@
                     <div>
                         <img src="{{url('assets/images/teams/'.$item->image)}}" class="img-fluid img-object-cover" title="Adora" alt="Adora">
                         <p>{{$item->name}}</p>
-                        <span>{{$item->designation}}</span>
+                        <span>{{$item->designation}}</span><br>
+                        <span>{{$item->email}}</span>
+                        <span>{{$item->phone}}</span>
                     </div>
                 </div>
                     @endforeach

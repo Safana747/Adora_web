@@ -46,6 +46,8 @@ class TeamsController extends Controller
             $data=array(
                 "name" =>$request->name,
                 "designation" =>$request->designation,
+                "phone" =>$request->phone,
+                "email" =>$request->email,
                 "image" => $image_name,
                 "created_at" => date("Y-m-d h:i:s")
             );
@@ -95,6 +97,8 @@ class TeamsController extends Controller
                 $data=array(
                     "name" =>$request->name,
                     "designation" =>$request->designation,
+                    "phone" =>$request->phone,
+                    "email" =>$request->email,
                     "image" => $image_name,
                     "updated_at" => date("Y-m-d h:i:s")
                 );
@@ -106,6 +110,8 @@ class TeamsController extends Controller
                 $data=array(
                     "name" =>$request->name,
                     "designation" =>$request->designation,
+                    "phone" =>$request->phone,
+                    "email" =>$request->email,
                     "updated_at" => date("Y-m-d h:i:s")
                 );
             }

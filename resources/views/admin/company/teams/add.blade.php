@@ -18,7 +18,7 @@
                     $("#msg").html("<div class='alert alert-danger'><span data-dismiss='alert' class='close' onclick=this.parentElement.style.display='none';>&times;</span><i class='fa fa-warning'></i>  Please Enter Name</div>");
                     $("html, body").animate({scrollTop:0},"slow");
                 }
-                if(designation == null || designation== "")
+                else if(designation == null || designation== "")
                 {
                     $("#msg").html("<div class='alert alert-danger'><span data-dismiss='alert' class='close' onclick=this.parentElement.style.display='none';>&times;</span><i class='fa fa-warning'></i>  Please Enter Designation</div>");
                     $("html, body").animate({scrollTop:0},"slow");
@@ -82,6 +82,14 @@
                                     <label>Designation</label>
                                     <input type="text" maxlength="150" class="form-control" id="designation" name="designation" value="">
                                 </div>
+                                <div class="form-group">
+                                    <label>Email</label>
+                                    <input type="text" id="email" name="email" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label>Phone</label>
+                                    <input onkeypress="return isNumberKey(event);" type="text" id="phone" name="phone" class="form-control">
+                                </div>
 
 
 
@@ -93,16 +101,11 @@
 
                                             <input type="file" name="file" class="filestyle file" data-input="false" id="filestyle-1" tabindex="-1" style="position: absolute; clip: rect(0px 0px 0px 0px);" onchange="document.getElementById('blah1').src = window.URL.createObjectURL(this.files[0])">
                                             <div class="bootstrap-filestyle input-group">
-<span class="group-span-filestyle" tabindex="0">
-<label for="filestyle-1" class="btn btn-default "><span class="icon-span-filestyle glyphicon glyphicon-folder-open"></span>
-<span class="buttonText">&nbsp;Select Photo</span></label></span></div>
-
+                                            <span class="group-span-filestyle" tabindex="0">
+                                            <label for="filestyle-1" class="btn btn-default "><span class="icon-span-filestyle glyphicon glyphicon-folder-open"></span>
+                                            <span class="buttonText">&nbsp;Select Photo</span></label></span></div>
 
                                         </th>
-
-
-
-
                                     </tr>
                                     </thead>
                                     <tbody>

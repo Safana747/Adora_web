@@ -57,8 +57,10 @@
                     <div class="col-lg-3 col-md-6" align="center">
                         <div class="card" >
                             <img class="card-img-top" style="max-height: 100%;max-width: 100%;width: 100%;height: 200px;object-fit: cover;margin-bottom: 10px;" src="{{url('assets/images/teams/'.$item->image)}}" alt="Card image cap">
-                            <h5>{{$item->name}}</h5>
+                            <h5><b>{{$item->name}}</b></h5>
                             <p>{{$item->designation}}</p>
+                            <h6>{{$item->email}}</h6>
+                            <h6>{{$item->phone}}</h6>
                             <div class="card-body">
                                 <a href="{{route('admin.teams_edit',$item->id)}}"
                                    class="btn btn-info btn-sm" title="Edit"><i class="fa fa-edit"></i></a>

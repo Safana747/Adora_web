@@ -167,6 +167,7 @@
                         <a href="" class="has-arrow"><i class="fa fa-building-o"></i><span>Business</span></a>
 
                         <ul {{isset($menu)?($menu==4?'aria-expanded="true" class="collapse in"':'aria-expanded="false" class="collapse" style="height: 0px;"'):''}}>
+                            <li {{isset($sub_menu)?($sub_menu==40?'class=active':''):''}}><a href="{{route('admin.business')}}">Business</a></li>
                             <li {{isset($sub_menu)?($sub_menu==41?'class=active':''):''}}><a href="{{route('admin.it_automation')}}">IT & Automation</a></li>
                             <li {{isset($sub_menu)?($sub_menu==42?'class=active':''):''}}><a href="{{route('admin.consulting')}}">Consulting</a></li>
                             <li {{isset($sub_menu)?($sub_menu==43?'class=active':''):''}}><a href="{{route('admin.contracting')}}">Contracting</a></li>

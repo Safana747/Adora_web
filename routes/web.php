@@ -159,10 +159,16 @@ Route::group(['prefix'=>'admin','as'=>'admin.'], function(){
     Route::get('/brands/edit/{id}', 'admin\BrandsController@edit')->name('brands_edit');
     Route::post('/brands/edit/{id}', 'admin\BrandsController@update')->name('brands_update');
     Route::delete('/brands/delete/{id}', 'admin\BrandsController@delete')->name('brands_delete');
-
+    //Brochure
     Route::post('/business/business_pdf_files/bus_pdf_upload/{table_name}', 'admin\ItAutomationController@bus_pdf_upload')->name('bus_pdf_upload');
     Route::get('/business/business_pdf_files/bus_pdf_delete/{id}', 'admin\ItAutomationController@bus_pdf_delete')->name('bus_pdf_delete');
-
+    //businessweb_it_automation
+    Route::get('/business/business', 'admin\BusinessController@index')->name('business');
+    Route::get('/business/business/create', 'admin\BusinessController@add')->name('business_add');
+    Route::post('/business/business/create', 'admin\BusinessController@save')->name('business_save');
+    Route::get('/business/business/edit/{id}', 'admin\BusinessController@edit')->name('business_edit');
+    Route::post('/business/business/edit/{id}', 'admin\BusinessController@update')->name('business_update');
+    Route::delete('/business/business/delete/{id}', 'admin\BusinessController@delete')->name('business_delete');
     //it&automation
     Route::get('/business/it_automation', 'admin\ItAutomationController@index')->name('it_automation');
     Route::get('/business/it_automation/create', 'admin\ItAutomationController@add')->name('it_automation_add');
