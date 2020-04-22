@@ -546,6 +546,16 @@ footer .copyright a:hover{color: #FEC20E;}
     .single_list p{font-size: 14px !important;line-height: 24px !important;text-align: justify !important;}
     .single_list .images_list img{height: 300px;}
     /*signle view*/
+    /*business*/
+    .business_page .business_list .b_cont h4{font-size: 28px;}
+    .business_page .business_list .b_cont p{line-height: 24px;}
+    .business_page .business_list .b_cont{padding:30px 25px;}
+    .business_page .business_list .b_cont h4{padding-top: 30px;}
+    .business_page .business_list .b_img:before{left: -6px;bottom: -20px;}
+    .business_page .business_list .b_img:after{right: -6px;top: -20px;}
+    .business_page .business_list.bus_right .row{flex-direction: column-reverse !important;}
+    .business_page .business_list{margin-bottom: 50px;}
+    /*business*/
 
 }
 @media only screen and (min-width:480px) and (max-width:767px) {
@@ -708,6 +718,18 @@ footer .copyright a:hover{color: #FEC20E;}
     .single_list p{font-size: 14px !important;line-height: 24px !important;text-align: justify !important;}
     .single_list .images_list img{height: 300px;}
     /*signle view*/
+    /*business*/
+    .business_page .business_list .b_cont h4{font-size: 20px;padding-top:20px;}
+    .business_page .business_list .b_cont p{line-height: 22px;text-align: justify;}
+    .business_page .business_list .b_cont{padding:20px 15px;text-align: center;}
+    .business_page .business_list .b_img:before{left: -6px;bottom: -20px;}
+    .business_page .business_list .b_img:after{right: -6px;top: -20px;}
+    .business_page .business_list.bus_right .row{flex-direction: column-reverse !important;}
+    .business_page .business_list{margin-bottom: 50px;padding: 10px;}
+    .business_page .business_list .b_img img{height: 250px;border-radius: 25px;}
+    .business_page .business_list .b_img:before, .business_page .business_list .b_img:after{width: 25px;height: 25px;}
+    .business_page .business_list .b_cont .btn{margin-bottom: 10px;}
+    /*business*/
 
 }
 @media only screen and (min-width:320px) and (max-width:479px) {
@@ -890,6 +912,19 @@ footer .copyright a:hover{color: #FEC20E;}
     .single_list p{font-size: 14px !important;line-height: 24px !important;text-align: justify !important;}
     .single_list .images_list img{height: 250px;}
     /*signle view*/
+    /*business*/
+    .business_page .business_list .b_cont h4{font-size: 20px;padding-top:20px;}
+    .business_page .business_list .b_cont p{line-height: 22px;text-align: justify;}
+    .business_page .business_list .b_cont{padding:20px 15px;text-align: center;}
+    .business_page .business_list .b_img:before{left: -6px;bottom: -20px;}
+    .business_page .business_list .b_img:after{right: -6px;top: -20px;}
+    .business_page .business_list.bus_right .row{flex-direction: column-reverse !important;}
+    .business_page .business_list{margin-bottom: 50px;padding: 0;}
+    .business_page .business_list .b_img img{height: 250px;border-radius: 25px;}
+    .business_page .business_list .b_img:before, .business_page .business_list .b_img:after{width: 25px;height: 25px;}
+    .business_page .business_list .b_cont .btn{margin-bottom: 10px;}
+    /*business*/
+
 
 
 }
@@ -1073,5 +1108,17 @@ footer .copyright a:hover{color: #FEC20E;}
     .single_list p{font-size: 14px !important;line-height: 24px !important;text-align: justify !important;}
     .single_list .images_list img{height: 250px;}
     /*signle view*/
+    /*business*/
+    .business_page .business_list .b_cont h4{font-size: 20px;padding-top:20px;}
+    .business_page .business_list .b_cont p{line-height: 22px;text-align: justify;}
+    .business_page .business_list .b_cont{padding:20px 15px;text-align: center;}
+    .business_page .business_list .b_img:before{left: -6px;bottom: -20px;}
+    .business_page .business_list .b_img:after{right: -6px;top: -20px;}
+    .business_page .business_list.bus_right .row{flex-direction: column-reverse !important;}
+    .business_page .business_list{margin-bottom: 50px;padding: 0;}
+    .business_page .business_list .b_img img{height: 250px;border-radius: 25px;}
+    .business_page .business_list .b_img:before, .business_page .business_list .b_img:after{width: 25px;height: 25px;}
+    .business_page .business_list .b_cont .btn{margin-bottom: 10px;}
+    /*business*/
 }
 
