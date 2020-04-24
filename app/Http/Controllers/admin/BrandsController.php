@@ -39,7 +39,6 @@ class BrandsController extends Controller
             $image_name=uniqid() . time() . '.' . $image->getClientOriginalExtension();
             $destinationPath = public_path('/assets/images/brands/');
             Image::make($image)->save($destinationPath.$image_name, 80);
-
             $data=array(
                 "description" =>$request->description,
                 "image" => $image_name,

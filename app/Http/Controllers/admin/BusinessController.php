@@ -43,7 +43,14 @@ class BusinessController extends Controller
             $image = $request->file('file');
             $image_name=uniqid() . time() . '.' . $image->getClientOriginalExtension();
             $destinationPath = public_path('/assets/images/business/');
-            Image::make($image)->save($destinationPath.$image_name, 80);
+            if($image->getClientOriginalExtension()=='gif')
+            {
+                copy($image->getRealPath(), $destinationPath.$image_name);
+
+            }
+            else{
+                Image::make($image)->save($destinationPath.$image_name, 80);
+            }
 
             $data=array(
                 "title" =>$request->title,
@@ -89,7 +96,14 @@ class BusinessController extends Controller
                 $image = $request->file('file');
                 $image_name=uniqid() . time() . '.' . $image->getClientOriginalExtension();
                 $destinationPath = public_path('/assets/images/business/');
-                Image::make($image)->save($destinationPath.$image_name, 80);
+                if($image->getClientOriginalExtension()=='gif')
+                {
+                    copy($image->getRealPath(), $destinationPath.$image_name);
+
+                }
+                else{
+                    Image::make($image)->save($destinationPath.$image_name, 80);
+                }
                 $image_path=public_path('assets/images/business/') . $item->image;
                 if (file_exists($image_path))
                 {

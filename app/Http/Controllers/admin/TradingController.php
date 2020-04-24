@@ -58,7 +58,14 @@ class TradingController extends Controller
             $image = $request->file('file');
             $image_name=uniqid() . time() . '.' . $image->getClientOriginalExtension();
             $destinationPath = public_path('/assets/images/trading/');
-            Image::make($image)->save($destinationPath.$image_name, 80);
+            if($image->getClientOriginalExtension()=='gif')
+            {
+                copy($image->getRealPath(), $destinationPath.$image_name);
+
+            }
+            else{
+                Image::make($image)->save($destinationPath.$image_name, 80);
+            }
 
             $data=array(
                 "seo_url"=>slugify($request->title),
@@ -107,7 +114,14 @@ class TradingController extends Controller
                 $image = $request->file('file');
                 $image_name=uniqid() . time() . '.' . $image->getClientOriginalExtension();
                 $destinationPath = public_path('/assets/images/trading/');
-                Image::make($image)->save($destinationPath.$image_name, 80);
+                if($image->getClientOriginalExtension()=='gif')
+                {
+                    copy($image->getRealPath(), $destinationPath.$image_name);
+
+                }
+                else{
+                    Image::make($image)->save($destinationPath.$image_name, 80);
+                }
 
                 $image_path=public_path('assets/images/trading/') . $item->image;
                 if (file_exists($image_path))
@@ -223,7 +237,14 @@ class TradingController extends Controller
                 $image = $request->file('file');
                 $image_name = uniqid() . time() . '.' . $image->getClientOriginalExtension();
                 $destinationPath = public_path($upload_path);
-                Image::make($image)->save($destinationPath . $image_name, 80);
+                if($image->getClientOriginalExtension()=='gif')
+                {
+                    copy($image->getRealPath(), $destinationPath.$image_name);
+
+                }
+                else{
+                    Image::make($image)->save($destinationPath.$image_name, 80);
+                }
                 $data = array(
                     "table_name" => $table_name,
                     "slider_id" => $ser_id,
