@@ -39,7 +39,6 @@ class SettingsController extends Controller
                 $data=array(
                     "name" =>$request->name,
                     "email" =>$request->email,
-                    //"password" =>$request->password,
                     "password" =>Hash::make($request->password),
                     "updated_at" => date("Y-m-d h:i:s")
                 );
